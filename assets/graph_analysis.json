@@ -129,23 +129,23 @@
   {
    "id": "spam-phishing",
    "name": "Spam & Phishing",
-   "count": 1133,
+   "count": 1180,
    "trajectory": {
     "2023": 84,
     "2024": 333,
     "2025": 426,
-    "2026": 290
+    "2026": 337
    },
    "momentum": {
     "id": "spam-phishing",
     "name": "Spam Phishing",
-    "total": 1133,
-    "recent": 420,
+    "total": 1180,
+    "recent": 467,
     "prior": 423,
-    "growth_pct": -0.7,
-    "recent_share": 0.371,
-    "papers_per_month": 35.0,
-    "score": 36.4
+    "growth_pct": 10.4,
+    "recent_share": 0.396,
+    "papers_per_month": 38.9,
+    "score": 50.0
    }
   }
  ],
@@ -168,7 +168,7 @@
   {
    "id": "dmarc-dkim",
    "name": "DMARC/DKIM/SPF",
-   "count": 111
+   "count": 113
   },
   {
    "id": "encryption",
@@ -178,7 +178,7 @@
   {
    "id": "exchange",
    "name": "Exchange & EAS",
-   "count": 167
+   "count": 170
   },
   {
    "id": "identity",
@@ -198,7 +198,7 @@
   {
    "id": "phishing-detection",
    "name": "Phishing Detection",
-   "count": 464
+   "count": 496
   },
   {
    "id": "reputation",
@@ -218,7 +218,7 @@
   {
    "id": "spam-filtering",
    "name": "Spam Filtering",
-   "count": 516
+   "count": 526
   },
   {
    "id": "storage-format",
@@ -7625,6 +7625,16 @@
   [
    "2026-07",
    "spam-phishing",
+   "exchange"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "exchange"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
    "imap"
   ],
   [
@@ -7685,12 +7695,107 @@
   [
    "2026-07",
    "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
    "reputation"
   ],
   [
    "2026-07",
    "spam-phishing",
    "reputation"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "spam-filtering"
   ],
   [
    "2026-07",
@@ -7890,6 +7995,21 @@
   [
    "2026-08",
    "spam-phishing",
+   "dmarc-dkim"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "dmarc-dkim"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "exchange"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
    "exchange"
   ],
   [
@@ -7901,6 +8021,86 @@
    "2026-08",
    "spam-phishing",
    "exchange"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
   ],
   [
    "2026-08",
@@ -8000,6 +8200,36 @@
   [
    "2026-08",
    "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
    "transport-security"
   ],
   [
@@ -8025,13 +8255,18 @@
   [
    "2026-09",
    "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-09",
+   "spam-phishing",
    "spam-filtering"
   ]
  ],
  "venues": [
   {
    "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 134
+   "papers": 148
   },
   {
    "name": "Lecture notes in networks and systems",
@@ -8039,11 +8274,11 @@
   },
   {
    "name": "arXiv (Cornell University)",
-   "papers": 32
+   "papers": 33
   },
   {
    "name": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
-   "papers": 29
+   "papers": 30
   },
   {
    "name": "IEEE Access",
@@ -8059,7 +8294,7 @@
   },
   {
    "name": "Electronics",
-   "papers": 12
+   "papers": 13
   },
   {
    "name": "Communications in computer and information science",
@@ -8071,53 +8306,53 @@
   },
   {
    "name": "Computers & Security",
-   "papers": 10
+   "papers": 11
+  },
+  {
+   "name": "Lecture notes in computer science",
+   "papers": 9
   },
   {
    "name": "International Research Journal of Modernization in Engineering Technology and Science",
    "papers": 9
   },
   {
-   "name": "Lecture notes in computer science",
-   "papers": 8
+   "name": "Applied Sciences",
+   "papers": 9
   },
   {
    "name": "International Journal For Multidisciplinary Research",
-   "papers": 8
-  },
-  {
-   "name": "Applied Sciences",
    "papers": 8
   }
  ],
  "keyword_bursts": [
   {
    "keyword": "phishing",
-   "recent": 306,
-   "total": 759,
-   "burst_score": 0.92,
-   "recent_share": 0.4487
+   "recent": 352,
+   "total": 805,
+   "burst_score": 0.96,
+   "recent_share": 0.4829
   },
   {
    "keyword": "spam",
-   "recent": 228,
-   "total": 590,
+   "recent": 240,
+   "total": 602,
    "burst_score": 0.88,
-   "recent_share": 0.3343
+   "recent_share": 0.3292
   },
   {
    "keyword": "email security",
-   "recent": 37,
-   "total": 119,
-   "burst_score": 0.71,
-   "recent_share": 0.0543
+   "recent": 38,
+   "total": 120,
+   "burst_score": 0.7,
+   "recent_share": 0.0521
   },
   {
    "keyword": "email classifier",
    "recent": 1,
    "total": 4,
-   "burst_score": 0.57,
-   "recent_share": 0.0015
+   "burst_score": 0.55,
+   "recent_share": 0.0014
   }
  ]
 }

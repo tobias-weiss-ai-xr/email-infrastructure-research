@@ -6,14 +6,14 @@ Bootstrap in progress.
 
 ## 📊 Corpus Statistics
 
-**1557 papers** across **7 categories**.  
-Sources: **arXiv** 155 (10%).  
+**1604 papers** across **7 categories**.  
+Sources: **arXiv** 157 (10%).  
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| spam-phishing | **1133** | 420 | ████████████ |
+| spam-phishing | **1180** | 467 | ████████████ |
 | ai-email | **251** | 171 | ███░░░░░░░░░ |
 | delivery-security | **119** | 63 | █░░░░░░░░░░░ |
 | mail-servers | **29** | 12 | █░░░░░░░░░░░ |
@@ -28,7 +28,7 @@ Sources: **arXiv** 155 (10%).
 | 2023 | 105 | ██░░░░░░░░░░ |
 | 2024 | 405 | █████████░░░ |
 | 2025 | 537 | ████████████ |
-| 2026 | 510 | ███████████░ |
+| 2026 | 557 | ████████████ |
 
 ### Momentum (hottest categories)
 
@@ -39,30 +39,30 @@ Sources: **arXiv** 155 (10%).
 | Mail Servers | 29 | 1.0/mo | 41% | 141 |
 | Mailbox Migration | 8 | 0.7/mo | 100% | 100 |
 | Protocols | 1 | 0.1/mo | 100% | 100 |
+| Spam Phishing | 1180 | 38.9/mo | 40% | 50 |
 | Privacy Compliance | 16 | 0.6/mo | 44% | 44 |
-| Spam Phishing | 1133 | 35.0/mo | 37% | 36 |
 
 ### Trending keywords
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| phishing | 306 | 0.92 |
-| spam | 228 | 0.88 |
-| email security | 37 | 0.71 |
-| email classifier | 1 | 0.57 |
+| phishing | 352 | 0.96 |
+| spam | 240 | 0.88 |
+| email security | 38 | 0.7 |
+| email classifier | 1 | 0.55 |
 
 ### Top venues
 
 | Venue | Papers |
 |-------|--------|
-| Zenodo (CERN European Organization for Nuclear Research) | 134 |
+| Zenodo (CERN European Organization for Nuclear Research) | 148 |
 | Lecture notes in networks and systems | 39 |
-| arXiv (Cornell University) | 32 |
-| INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT | 29 |
+| arXiv (Cornell University) | 33 |
+| INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT | 30 |
 | IEEE Access | 27 |
 | SSRN Electronic Journal | 24 |
 | International Journal for Research in Applied Science and Engineering Technology | 20 |
-| Electronics | 12 |
+| Electronics | 13 |
 | Communications in computer and information science | 12 |
 | DOAJ (DOAJ: Directory of Open Access Journals) | 11 |
 

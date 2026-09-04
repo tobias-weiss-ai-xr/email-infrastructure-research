@@ -61883,3 +61883,1290 @@ papers:
     and applications. It serves as a starting point for further investigation and
     the creation of enhanced versions and modifications of the Naive Bayes algorithm.
   venue: ''
+- title: 'LLM-PHISH-900: A Hand-Crafted Dataset of LLM-Styled Phishing Emails for
+    Transformer-Based Detection Research'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21822368
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Areeba Khan
+  abstract: 'LLM-PHISH-900 is a dataset of 900 hand-crafted phishing emails written
+    to emulate the documented linguistic styles of four LLM families (Claude Sonnet,
+    GPT-4o, Gemini 1.5 Pro, LLaMA-3 70B) across 8 social-engineering attack categories
+    (e.g. Password Reset, CEO Fraud/BEC, Credential Harvesting, HR/Benefits Phishing).
+    It was built to evaluate zero-shot recall and augmentation-based recovery of transformer-based
+    phishing detectors against LLM-styled attacks. IMPORTANT: emails are hand-crafted
+    proxies matching published stylometric patterns for each LLM, not text sampled
+    via live API calls to those models — see README.md and DATASHEET.md in the uploaded
+    files for full provenance details and limitations.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Integrating Cyber Threat Intelligence into Email Gateway Architectures for
+    Phishing and Ransomware Detection and Prevention
+  date: 2026-08
+  url: https://doi.org/10.3390/electronics15173792
+  category: spam-phishing
+  subcategory: dmarc-dkim
+  authors:
+  - Mustafa Kara
+  - Hasan Burus
+  - Hasan H. Balık
+  abstract: Email remains a major Initial Access vector for phishing and ransomware
+    attacks, requiring security mechanisms that can combine multiple sources of threat
+    evidence before malicious content reaches end users. Modern commercial email gateways
+    already incorporate antivirus, reputation-based filtering, email authentication,
+    and vendor-provided threat-intelligence mechanisms. However, their correlation
+    logic, scoring criteria, decision thresholds, and automated response workflows
+    are often proprietary or insufficiently documented. Moreover, transparent evaluations
+    of the incremental benefit provided by external CTI enrichment and unified Indicator
+    of Compromise (IoC) and Indicator of Attack (IoA) correlation remain limited.
+    To address this gap, this study presents and experimentally evaluates a transparent
+    CTI-supported email gateway workflow that integrates external intelligence feeds,
+    IoC/IoA correlation, contextual threat scoring, predefined decision thresholds,
+    and automated response actions. The proposed configuration was compared with a
+    commercial baseline using the same vendor-native security controls in an isolated
+    VMware ESXi-based environment. The evaluation included 1000 emails comprising
+    500 benign emails, 200 emails containing ransomware attachments, and 300 emails
+    containing phishing URLs. The CTI-supported configuration achieved an overall
+    detection rate of 98.8%, compared with 64.2% for the commercial baseline. Phishing
+    URL and ransomware attachment detection rates reached 99.3% and 98.0%, respectively,
+    while the false positive rate decreased from 4.5% to 1.2%. In the evaluated scenarios,
+    the CTI-supported architecture interrupted the modeled attack chain at the Initial
+    Access stage, demonstrating the measurable benefit of external CTI enrichment
+    and unified correlation beyond the gateway’s native controls.
+  venue: Electronics
+- title: Improved Phishing Email Detection through Hybrid Machine Learning and AI-Based
+    Data Augmentation
+  date: 2026-07
+  url: https://doi.org/10.55248/gengpi.07.0726.2220
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Chikeru Ihunwo
+  - Dr V. T. Emmah
+  - Nuka Nwiabu
+  abstract: Phishing attacks continue to evolve in sophistication, making them one
+    of the most significant cybersecurity threats affecting individuals and organizations.
+    Traditional phishing detection techniques based on rule-based systems and standalone
+    machine learning algorithms often struggle to identify modern phishing emails
+    generated using artificial intelligence and advanced social engineering techniques.
+    This study proposes an AI-driven hybrid ensemble model that integrates Support
+    Vector Machine (SVM), Random Forest (RF), and Bidirectional Long Short-Term Memory
+    (Bi-LSTM) to improve phishing email detection accuracy and robustness. To address
+    dataset imbalance and the limited availability of AI-generated phishing emails,
+    an AI-based data augmentation module was incorporated to generate realistic synthetic
+    phishing samples during model training. The proposed methodology consists of data
+    collection, preprocessing, feature engineering, synthetic data generation, individual
+    model training, and ensemble classification using a soft voting mechanism. Experimental
+    evaluation was performed using benchmark phishing email datasets and standard
+    performance metrics, including accuracy, precision, recall, F1-score, confusion
+    matrix, and inference latency. Results indicate that the proposed hybrid model
+    achieved an overall detection accuracy of 98.9%, outperforming a comparable existing
+    model, which achieved 95.2% accuracy. Furthermore, the hybrid approach demonstrated
+    improved generalization, reduced false classifications, and faster detection latency.
+    The findings suggest that combining classical machine learning, deep learning,
+    and AI-driven data augmentation provides an effective framework for protecting
+    modern email systems against both conventional and AI-generated phishing attacks.
+  venue: International Journal of Research Publication and Reviews
+- title: Analysis and Development of Transformer (DistilBERT)-LSTM and Reinforcement
+    Learning Models for Adaptive Phishing Email Detection
+  date: 2026-07
+  url: https://doi.org/10.32520/stmsi.v15i7.6432
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Farizal Herry Saputra
+  - Kahfi Heryandi Suradiraja
+  - Abu Khalid Rivai
+  abstract: 'Phishing detection faces two major challenges: performance degradation
+    caused by domain shift and a heavy reliance on costly labeled data. This study
+    proposes an adaptive phishing email detection model that integrates a hybrid DistilBERT–LSTM
+    architecture with a Proximal Policy Optimization (PPO)-based Reinforcement Learning
+    agent. The proposed methodology employs a multi-stage transfer learning framework
+    using three datasets: Enron as the source domain, Phishing_Validation for supervised
+    domain adaptation, and CEAS_08 to simulate an unlabeled data stream through pseudo-labeling.
+    Experimental results demonstrate excellent performance on the source-domain dataset
+    (Enron), achieving an F1-score of 0.9935. However, the model''s performance declined
+    on the Phishing_Validation dataset (F1-score = 0.9067), confirming the impact
+    of domain shift. By incorporating the PPO agent, the proposed model autonomously
+    recovered its performance on the CEAS_08 dataset, achieving an F1-score of 0.9516,
+    an accuracy of 0.9468, and a ROC–AUC of 0.9915. The stability of the adaptation
+    process was validated by the convergence of the Kullback–Leibler (KL) divergence
+    to 0.000173, although a minor overconfidence of approximately 5% was observed
+    between the model''s confidence estimates and the ground-truth labels. These findings
+    demonstrate the effectiveness of PPO in mitigating domain shift within an unsupervised
+    adaptation environment. Future research should focus on improving model calibration
+    and exploring multimodal feature integration to further strengthen cybersecurity
+    defenses.'
+  venue: SISTEMASI
+- title: Development of an Email Phishing Detection System Using TF–IDF Feature Extraction
+    and Machine Learning Algorithms
+  date: 2026-08
+  url: https://doi.org/10.64388/irev10i2-1722448
+  category: spam-phishing
+  subcategory: exchange
+  authors:
+  - C. Etus
+  - Ewunonu T. C. (PhD.)
+  - Chuks-Ugochukwu C. M. (PhD.)
+  abstract: 'The rapid expansion of digital communication has established email as
+    a primary medium for information exchange among individuals, businesses, and organisations.
+    This widespread reliance has contributed to a marked increase in phishing attacks,
+    in which cybercriminals impersonate legitimate entities to obtain sensitive information,
+    including login credentials, financial data, and personal details. Traditional
+    phishing detection methods, including rule-based filters and blacklist mechanisms,
+    have proven increasingly insufficient against sophisticated and evolving phishing
+    strategies. As a result, there is a critical need for intelligent and adaptive
+    detection systems capable of accurately identifying phishing emails. This study
+    presents the development of an intelligent Email Phishing Detection System utilising
+    supervised machine learning algorithms to enhance email security and protect users
+    from phishing threats. A publicly available dataset containing both phishing and
+    legitimate email messages was employed for model training and evaluation. The
+    dataset underwent preprocessing steps including text cleaning, tokenisation, stop-word
+    removal, and feature extraction using the Term Frequency–Inverse Document Frequency
+    (TF–IDF) technique. Five supervised machine learning algorithms—Logistic Regression,
+    Naïve Bayes, Decision Tree, Random Forest, and Support Vector Machine (SVM)—were
+    trained and evaluated using standard performance metrics: accuracy, precision,
+    recall, and F1-score. Experimental results indicated that the Support Vector Machine
+    (SVM) outperformed the other classification models, achieving an accuracy of 99.1%,
+    precision of 99.0%, recall of 99.1%, and an F1-score of 99.0%. Due to its superior
+    performance, the SVM model was selected for deployment in the developed system.
+    The proposed phishing detection system was implemented as a desktop application
+    using Python''s Tkinter graphical user interface (GUI), allowing users to input
+    email content and receive real-time predictions regarding the legitimacy of emails.
+    The findings demonstrate that machine learning techniques, particularly the Support
+    Vector Machine algorithm, offer a highly accurate, reliable, and efficient approach
+    to phishing email detection. Integrating the trained SVM model into a user-friendly
+    desktop application provides a practical, lightweight, and scalable solution that
+    enhances email security, reduces false detections, and assists users in more effectively
+    identifying phishing attempts.'
+  venue: Iconic Research and Engineering Journals
+- title: 'EmailGuard: A Multi Agent Ensemble based Multi-modal Email Phishing Detection
+    Framework with SDN Enforcement'
+  date: 2026-07
+  url: https://doi.org/10.22266/ijies2026.0831.63
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - Senan A. M. Alhasan
+  - Ali Al-Allawee
+  - Awos Kh. Ali
+  abstract: 'Email phishing remains a persistent operational challenge for organisations,
+    not merely because of limitations in detection models, but because design shortcomings
+    elevated false positive rates, poorly calibrated decision thresholds, or delayed
+    response mechanisms can rapidly erode confidence in deployed systems.This paper
+    presents EmailGuard, a multi agent, multi-modal phishing detection framework designed
+    for operational reliability alongside strong detection performance.EmailGuard
+    integrates three complementary detection agents that analyse semantic content,
+    surface level textual patterns, and engineered lexical features derived from embedded
+    URLs.Their outputs are combined by a calibrated late fusion ensemble explicitly
+    tuned to suppress false positives a persistent weakness in production deployments
+    while maintaining high recall on borderline cases.Beyond classification, EmailGuard
+    is coupled with a simulated Software Defined Networking (SDN) enforcement layer
+    that maps calibrated risk scores to tiered actions: high risk messages are quarantined,
+    medium risk traffic is mirrored for analyst review, and lowrisk email is delivered
+    without interruption.Evaluation is conducted on two independent datasets: a merged
+    email corpus of 28,748 labelled messages drawn from seven sources (Spam Assassin,
+    Nigerian Fraud, Phishing Email, CEAS08, Enron, Ling, and Nazario), and the PhiUSIIL
+    phishing URL dataset of 235,795 instances, used exclusively to evaluate the Lexical
+    and Structural Feature Agent.Both datasets are assessed under stratified fourfold
+    cross validation.Results consistently exceed 98% accuracy and 0.97 macroF1, with
+    phishing recall approaching 99%, without disrupting legitimate email delivery.These
+    findings suggest that well calibrated multi-modal ensembles, combined with programmable
+    network enforcement, can meaningfully narrow the gap between laboratory performance
+    and dependable, operationally viable phishing defence.'
+  venue: International journal of intelligent engineering and systems
+- title: 'IntelliPhish: An Explainable DistilBERT-Based Phishing Email Detection System
+    with URL Deep Analysis and Live Threat Analytics'
+  date: 2026-08
+  url: https://doi.org/10.55041/ijsrem66497
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Kandela Prakash Kandela Prakash
+  abstract: ''
+  venue: INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT
+- title: 'HIEF: An Interpretable Evidence-Fusion Framework for Phishing Email Detection
+    with Decomposable Decision Uncertainty and a Preliminary English–Spanish Evaluation'
+  date: 2026-09
+  url: https://doi.org/10.3390/a19090741
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Carolina Del-Valle-Soto
+  - Carlos-Santiago Cruz-Diaz
+  - Manuel Cardona
+  abstract: '(1) Background: Phishing remains a pervasive and economically damaging
+    cyberthreat. The dominant detection paradigm has moved toward deep neural and
+    transformer-based classifiers, a literature that reports high accuracy and that
+    does not, in general, expose a per-decision justification, whereas interpretability
+    and auditability are increasingly required in regulated environments; no comparison
+    against transformer-scale detectors is made in this paper. This work asks how
+    far a fully interpretable detector can close the accuracy gap to an opaque text
+    classifier while preserving per-decision explanations, and what such a detector
+    returns that accuracy alone does not measure. (2) Methods: HIEF, an interpretable
+    evidence-fusion framework, is presented. Each email is represented by eighteen
+    human-readable signals: fourteen structural and linguistic cues and four lexical
+    aggregates derived from a published sparse log-odds lexicon. The signals are fused
+    by three transparent layers, namely an L1-regularized logistic model, a shallow
+    interaction-rule tree, and a calibrated Dempster–Shafer stage that reports belief,
+    disbelief and ignorance masses together with an order-invariant global conflict
+    coefficient derived in closed form. A logistic meta-learner fitted on out-of-fold
+    component scores integrates the three layers. The evidential layer uses a type-aware
+    calibration in which discrete signals are calibrated on their attainable values
+    and continuous signals by isotonic regression. Evaluation uses 38,908 public emails,
+    38,512 of them after exact-duplicate removal, with near-duplicate control, group-aware
+    partitioning, ten repeated splits, a source-held-out protocol, a two-class cross-source
+    test set, a component ablation and a human audit of 100 messages annotated independently
+    by two evaluators. (3) Results: Under group-aware partitioning, HIEF attains an
+    F1 of 0.855 and the strongest term frequency–inverse document frequency (TF–IDF)
+    baseline 0.954; a compact character n-gram neural reference model, evaluated over
+    the same ten partitions, attains 0.973. The linear layer alone attains 0.872,
+    so the two fusion layers do not improve accuracy over it, and the paired difference
+    of 0.017 excludes zero. Type-aware calibration raises the evidential layer from
+    0.771 to 0.780 and more than halves its partition-to-partition standard deviation,
+    but does not make it competitive; the weakness, therefore, lies in the fusion
+    formulation rather than in the binning. What the evidential layer does supply
+    is a decomposable account of decision uncertainty: the ignorance mass separates
+    errors from correct decisions, 0.265 against 0.175. The human audit reaches an
+    inter-annotator Cohen’s kappa of 0.950 over the five categories before adjudication,
+    and shows that the permissive corpus label agrees with human phishing judgment
+    at a Cohen’s kappa between 0.18 and 0.21, against 0.70 to 0.77 for the automatic
+    strict rule; the audited block is annotated by two of the authors and its human
+    positives are confined to the advance-fee family, so the audit is a bounded comparison
+    of label assignments and not an independent annotation study. (4) Conclusions:
+    HIEF is positioned as an uncertainty and explanation framework rather than as
+    an accuracy-improving fusion method, since the measured accuracy cost of the fusion
+    layers is not compensated by an accuracy gain. Quantifying how much of the performance
+    reported on these widely used corpora is attributable to template leakage and
+    to label permissiveness is a contribution independent of the detector itself.
+    Cross-source operation has not been demonstrated: specificity falls to 0.041 on
+    an unseen collection, so all evaluation reported here is proof-of-concept and
+    no operational deployment claim is made. The Spanish-language evaluation rests
+    on a small and entirely positive subset and is reported as preliminary.'
+  venue: Algorithms
+- title: 'TrustPhish-AI: Safety-Gated Source-Aware Evaluation of Three-Class Phishing
+    Detection Under Email-to-SMS Shift'
+  date: 2026-08
+  url: https://doi.org/10.33022/ijcs.v15i4.5223
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - Akam Aziz
+  - Umran Abdullah Haje
+  abstract: Source shift can make phishing detectors appear stronger while concealing
+    unsafe class-specific errors. This study evaluated a three-class workflow (Legitimate,
+    Suspicious, and Phishing) using source-aware governance, controlled augmentation,
+    family-disjoint diagnostics, and pre-specified safety gates. The frozen training
+    set contained 3,732 records from four source families. Evaluation used a locked
+    584-record validation set, a 587-record internal test, a 788-record SMS compound
+    test, and a 200-record SpamAssassin family-disjoint diagnostic. Classical word/character
+    TF-IDF logistic regression with cell-balanced augmentation achieved internal macro-F1
+    of 0.9633 and compound macro-F1 of 0.5461. DistilRoBERTa augmentation improved
+    compound macro-F1 by 0.1524 versus its reference (95% CI 0.1143-0.1914), but reduced
+    phishing recall by 0.2374 and failed the severe-error gate. A hierarchical transformer
+    repair achieved internal macro-F1 of 0.9668 and compound macro-F1 of 0.5119; its
+    compound gain was 0.1774 (95% CI 0.1410-0.2152), while phishing recall remained
+    0.2323 below the reference. Governance review included 492 dual-human consensus
+    records, eight independently adjudicated disagreements, and protected-overlap
+    screening. Candidate replacement sources were excluded under provenance, licensing,
+    channel, privacy, taxonomy, or overlap criteria, so no records were added after
+    the training freeze. The results show that source-aware augmentation can improve
+    targeted and aggregate metrics, but aggregate gains are insufficient when phishing-recall
+    and severe-error safety criteria fail. The study supports a governance and evaluation
+    contribution, not global source resistance or autonomous deployment.
+  venue: Indonesian Journal of Computer Science
+- title: 'PhishGuard: A Real-Time Email and Web Phishing Detector'
+  date: 2026-07
+  url: https://doi.org/10.26706/ijceae.7.3.20260703
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Rupesh Bangre
+  - Mehul Mishra
+  - Harshika Likhar
+  abstract: Phishing attacks have become one of the most common and dangerous cyber
+    threats in the modern digital era.Attackers exploit human trust through deceptive
+    emails and fraudulent websites to steal sensitive information such as login credentials,
+    financial data, and personal details.Traditional phishing detection mechanisms,
+    such as blacklist-based filtering and rulebased systems, are often ineffective
+    against newly generated and zero-day phishing attacks.This paper introduces PhishGuard,
+    a real-time phishing detection system that uses Artificial Intelligence (AI),
+    including machine learning and natural language processing, to identify suspicious
+    emails and web links.PhishGuard focuses on user-side protection by providing instant
+    risk analysis and understandable alerts.The system aims to improve dete5ction
+    accuracy, reduce false positives, and enhance cybersecurity awareness among users.
+  venue: International Journal of Computational and Electronic Aspects in Engineering
+- title: Cross-model evaluation of phishing detectors against LLM-generated emails
+  date: 2026-07
+  url: https://doi.org/10.3389/fdata.2026.1883452
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Rommel Gutiérrez
+  - William Villegas-Ch
+  - Jaime Govea
+  abstract: Phishing remains a prevalent cyberattack vector, and the widespread adoption
+    of large language models (LLMs) has enabled adversaries to generate grammatically
+    correct and contextually coherent phishing emails at scale, against which conventional
+    detection systems are less effective. Although stylometric methods achieve over
+    95% accuracy within a single generator, their performance has not been systematically
+    evaluated when the source model changes between training and deployment. This
+    represents a significant gap, as adversaries can switch generators rapidly. A
+    balanced corpus of 9,986 phishing emails was assembled, comprising 4,986 emails
+    generated by three modern LLMs (GPT-4.1, DeepSeek 3.2, and Llama 3.3 70B) across
+    five thematic categories, and 5,000 human phishing emails sampled in a stratified
+    manner from five public sources. Seventeen stylometric features were extracted,
+    and Logistic Regression and XGBoost classifiers were evaluated under intra-model,
+    cross-model, threshold-recalibrated, cross-dataset, and aggregated-pool settings.
+    Intra-model F1 scores reached 0.96 under stratified cross-validation and 0.999
+    on held-out splits used for the cross-model matrix. However, cross-model F1 dropped
+    by 28.0 percentage points under the default decision threshold of 0.5. Notably,
+    the area under the receiver operating characteristic curve remained above 0.96
+    in every off-diagonal cell, indicating that discriminative information is preserved
+    even though the decision threshold is generator-specific. Recalibrating the threshold
+    on a small target subset reduced the gap to 4.0 percentage points (an 86% reduction),
+    and an aggregated-pool detector achieved F1 = 0.997 on each generator. This work
+    reframes cross-model phishing detection from a problem of model incompatibility
+    to one of practical calibration, and provides two deployable solutions, threshold
+    recalibration on a small target slice and aggregated-pool training, along with
+    a publicly released multi-LLM corpus.
+  venue: Frontiers in Big Data
+- title: Contrastive Learning for Phishing Detection in Text-Based Environments
+  date: 2026-08
+  url: https://aisel.aisnet.org/treos_amcis2026/76
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Thomas Mulaisho
+  - Emmanuel Michael
+  - Sanket Kanekar
+  abstract: Phishing remains one of the most prevalent and effective forms of social
+    engineering attacks in today’s online environment. Attackers typically impersonate
+    trusted individuals or organizations to deceive users and gain access to sensitive
+    information. Recent studies (e.g., Dandotiya et al., 2026) show that phishing
+    incidents have continued to rise and remain a major cybersecurity threat. Most
+    of these attacks are text-based, commonly delivered through email or SMS channels.
+    Despite advances in machine learning, existing phishing detection systems still
+    face important limitations. Prior work has identified challenges in existing phishing
+    detection systems, including poor generalization, dataset bias, and vulnerability
+    to adversarial manipulation (Kytidou et al., 2025). Although neural network–based
+    approaches have improved detection performance, they are still not robust enough
+    to handle evolving phishing strategies (Wilk-Jakubowski et al., 2025). These limitations
+    suggest a need for more adaptable and generalizable detection methods. To address
+    these challenges, this study explores the use of contrastive learning for phishing
+    detection in text-based environments. Contrastive learning enables models to learn
+    semantic representations by bringing similar phishing messages closer while separating
+    dissimilar messages in the representation space, reducing reliance on labeled
+    data and improving generalization. Prior research (Li et al., 2025) demonstrates
+    that self-supervised contrastive learning frameworks show promising results in
+    phishing detection tasks. Building on this work, this study proposes to train
+    a neural text encoder using both phishing email and SMS datasets under a contrastive
+    learning objective. By optimizing the encoder with a contrastive loss, the model
+    is expected to better distinguish between phishing and legitimate messages in
+    the representation space, leading to improved detection performance across different
+    communication channels.
+  venue: Journal of the Association for Information Systems
+- title: Phishing E-Mail Detection Using Ensembled ML Models
+  date: 2026-07
+  url: https://doi.org/10.4018/979-8-2600-3280-0.ch003
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - V. N. Krishna Addepalli
+  - Aayush Paudel
+  - Arnav Makhija
+  abstract: Phishing attacks continue to represent a major cybersecurity threat in
+    modern digital communication. Attackers frequently use deceptive emails that imitate
+    legitimate mes- sages to trick users into revealing confidential information such
+    as passwords, financial details, or personal credentials. Traditional detection
+    approaches based on rule-based filtering systems often struggle to identify new
+    and evolving phishing patterns. based on a stacking ensemble learning framework.
+    The proposed approach combines two widely used machine learning algorithms, Ran-
+    dom Forest and XGBoost, within a stacking architecture to improve classification
+    ac- curacy and robustness. Email data is first preprocessed and transformed into
+    numerical features using TF-IDF vectorization, along with additional indicators
+    such as suspicious URLs, inconsistencies in sender information, and structural
+    characteristics of the email content. By combining predictions from multiple classifiers,
+    the ensemble model aims to capture complex patterns in phishing emails and reduce
+    misclassification errors.
+  venue: Advances in computational intelligence and robotics book series
+- title: Phishing Detection in Digital Communication Using FeatureBased Machine Learning
+    Models
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21887746
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - DATAPRO  COMPUTERS  PVT Ltd
+  - NUDURUMATI  NAGAJYOTHI
+  abstract: Phishing attacks are a major cybersecurity threat because they attempt
+    to steal sensitive personal and login information through fraudulent emails, malicious
+    URLs, and fake webpages. This research proposes a unified phishing detection framework
+    that uses feature-based machine learning techniques to identify different types
+    of phishing attacks. The system uses a Naive Bayes classifier for detecting email
+    spam and analyzing webpage content, while XGBoost is employed to identify phishing
+    URLs. It also includes a probability-based risk assessment mechanism to determine
+    the severity of detected threats, Fernet symmetric encryption for secure data
+    storage, and an automated email notification system to alert users about potential
+    attacks. Experimental results demonstrate that the proposed framework achieves
+    high detection accuracy across all modules, with 96.72% accuracy for URL phishing
+    detection, 98.77% for email spam classification, and 95% for webpage content analysis.
+    The hybrid architecture provides an effective balance between detection accuracy
+    and processing speed, making the proposed system suitable for practical cybersecurity
+    applications.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Digital Forensic in Incident Response: An Investigative Case Study of Email-Based
+    Phishing Attacks'
+  date: 2026-08
+  url: https://doi.org/10.32877/bt.v9i1.3835
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Chrisna Maulana Fatchurrochim
+  - Yudi Prayudi
+  abstract: Email-based phishing remains a dominant threat in modern cybersecurity
+    environments due to its reliance on social engineering rather than purely technical
+    exploitation. Although existing detection approaches have achieved high classification
+    accuracy, they often lack interpretability and forensic accountability required
+    in Digital Forensic Incident Response (DFIR) contexts. This study proposes a DFIR-based
+    analytical framework that integrates probabilistic natural language processing
+    (NLP), rule-based indicator extraction, and threshold-based decision logic to
+    support structured phishing investigation. The proposed model evaluates email
+    samples based on linguistic patterns, header characteristics, and URL-based indicators,
+    producing classification outcomes along with severity and confidence scores to
+    support decision-making. A scenario-based evaluation using 40 curated email samples
+    demonstrates consistent classification performance, where phishing emails are
+    identified with high confidence values (0.93–0.99) and categorized as critical
+    severity, while legitimate emails remain below the defined threshold and are assigned
+    low severity. The results indicate that combining probabilistic and rule-based
+    analysis improves both detection reliability and interpretability, enabling transparent
+    and explainable analytical processes. This research contributes an operational
+    and reproducible analytical model that bridges the gap between predictive phishing
+    detection and forensic investigation, providing practical support for DFIR workflows
+    and incident response prioritization.
+  venue: bit-Tech
+- title: LLM-Based Autonomous Agents for Phishing Detection, Triage, and Response
+  date: 2026-07
+  url: https://doi.org/10.4018/979-8-2600-0413-5.ch006
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Ismail El Bazi
+  - Jamal Ezzine
+  - Brahim Ghazoui
+  abstract: This chapter presents an agentic intelligence framework for autonomous
+    phishing detection and response in the context of evolving cyber warfare strategies.
+    It introduces the Autonomous Phishing Detection and Action (APDA) architecture,
+    which integrates large language models with perception, reasoning, action, and
+    feedback layers to enable adaptive and explainable decision-making. This chapter
+    examines how adversarial techniques, such as prompt injection, jailbreaking, hallucination,
+    and data poisoning, threaten LLM-based cybersecurity systems, and outlines the
+    corresponding mitigation strategies embedded within each architectural layer.
+    A structured evaluation framework is proposed, including technical and operational
+    metrics, alongside an illustrative enterprise email threat scenario. This chapter
+    contributes a novel layered approach that bridges advances in natural language
+    processing with autonomous cyber defense, offering a scalable and governance-aware
+    solution for next-generation security operations.
+  venue: Advances in computational intelligence and robotics book series
+- title: 'HPDnet: A Hybrid Deep Learning Architecture Combining Bidirectional LSTMs
+    and Heuristic Features for Phishing Email Classification'
+  date: 2026-08
+  url: https://doi.org/10.5120/ijca87b9dca7919c
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Parul Patel
+  abstract: Phishing emails are one of the most common cybersecurity threats and continue
+    to cause significant financial losses.Traditional rule-based email filters are
+    becoming less effective because attackers constantly change the content and structure
+    of phishing emails.This paper presents HPDnet, a hybrid deep learning model for
+    phishing email detection that combines BiLSTM-based text analysis with handcrafted
+    features such as URL count, urgency words, generic greetings, and formatting patterns.The
+    model merges these features to improve phishing detection accuracy while maintaining
+    interpretability.The paper also describes the data preprocessing, model architecture,
+    training process, and performance evaluation using a labeled phishing email dataset.The
+    proposed approach demonstrates that combining deep learning with domain-specific
+    features provides an effective and practical solution for phishing email classification.
+  venue: International Journal of Computer Applications
+- title: Anti-phishing in the Era of Deepfakes
+  date: 2026-08
+  url: https://doi.org/10.1007/978-3-032-34374-1_1
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Lok Sang Kee
+  - Maisie Marks
+  - Anne V. D. M. Kayem
+  abstract: ''
+  venue: Lecture notes in computer science
+- title: 'PhishGuard ML: Evaluating Machine Learning Models for Phishing Message Detection'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22182475
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - Sujay Oggu
+  abstract: PhishGuard ML is an independent machine learning research project evaluating
+    text-based classification methods for identifying suspicious email messages. Using
+    more than 5,600 messages from the Apache SpamAssassin public mail corpus, the
+    study compares TF-IDF–based Logistic Regression and Linear SVM models, with particular
+    attention to false negatives, model errors, and cross-source generalization. The
+    study evaluates performance using accuracy, precision, recall, F1 score, ROC-AUC,
+    and PR-AUC, and includes feature and error analyses to examine patterns associated
+    with successful and missed classifications. A source-held-out experiment is also
+    used to assess how well the models transfer to separately released email data.
+    Because the SpamAssassin corpus provides spam rather than independently verified
+    phishing labels, the positive class is treated as a spam/suspicious-email proxy
+    rather than a phishing-specific ground truth. The project is intended as an empirical
+    study of machine learning classification behavior and generalization, not as a
+    production-ready phishing detection system. Code and experimental materials are
+    available in the accompanying GitHub repository. https://github.com/SujayO372/PhishGuard-ML
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: AI-Based Phishing Detection System Using Machine Learning Techniques
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.22031215
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Prince Kumar Yadav
+  - Shristhi Singh
+  - Samriddhi Prakash
+  abstract: Phishing attacks have become one of the most significant cybersecurity
+    threats, targeting users by impersonating legitimate entities to steal sensitive
+    information. Traditional detection techniques such as blacklist-based and heuristic
+    approaches are ineffective against modern phishing attacks, particularly zero-day
+    threats. This paper proposes an AI-based phishing detection system using machine
+    learning techniques to identify malicious URLs and email content. The system extracts
+    feature such as URL structure, domain characteristics, and textual patterns. Machine
+    learning algorithms including Random Forest and Logistic Regression are used for
+    classification. The proposed system achieves high accuracy and supports real-time
+    detection. The results demonstrate improved performance over traditional approaches,
+    making the system suitable for practical deployment in cybersecurity applications.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Role of decision style and knowledge in awareness influence to phishing detection
+    in higher education
+  date: 2026-08
+  url: https://doi.org/10.11591/eei.v15i4.10199
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Muh. Bafadhal Kurnia Alamsyah
+  - Candiwan Candiwan
+  abstract: Phishing attacks are a significant cybersecurity threat in higher education,
+    where employees handle sensitive data such as student records, financial transactions,
+    and research information. This study investigates the relationship between information
+    security awareness (ISA), intuitive decision style (IDS), and phishing detection
+    confidence (PDC), while assessing the moderating role of phishing email knowledge
+    (PEK). A quantitative approach was employed, using a structured questionnaire
+    distributed to 120 employees at XYZ University in Indonesia. Data were analyzed
+    using moderated mediation analysis with PROCESS Macro. The findings indicate that
+    ISA positively influences IDS, but an overreliance on intuition negatively impacts
+    PDC. PEK significantly moderates this relationship, reducing the negative effects
+    of intuitive decision-making. The results emphasize the importance of cybersecurity
+    awareness and phishing-specific training programs to enhance detection confidence.
+    Organizations should integrate security awareness programs with phishing simulations
+    and automated detection tools to strengthen their cybersecurity defenses. This
+    study is limited by its focus on a single organization and reliance on self-reported
+    measures. Future research should explore additional cognitive and contextual factors
+    influencing phishing susceptibility to develop more comprehensive security strategies.
+  venue: Bulletin of Electrical Engineering and Informatics
+- title: PHISHING DETECTION IN IMS USING DOMAIN ONTOLOGY AND CBA – AN INNOVATIVE RULE
+    GENERATION APPROACH
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21702573
+  category: spam-phishing
+  subcategory: exchange
+  authors:
+  - Mohammad Qaseem Kashaf
+  abstract: User ignorance towards the use of communication services like Instant
+    Messengers, emails, websites, social networks etc. is becoming the biggest advantage
+    for phishers. It is required to create technical awareness in users by educating
+    them to create a phishing detection application which would generate phishing
+    alerts for the user so that phishing messages are not ignored. The lack of basic
+    security features to detect and prevent phishing has had a profound effect on
+    the IM clients, as they lose their faith in e-banking and e-commerce transactions,
+    which will have a disastrous impact on the corporate and banking sectors and businesses
+    which rely heavily on the internet. Very little research contributions were available
+    in for phishing detection in Instant messengers. A context based, dynamic and
+    intelligent phishing detection methodology in IMs is proposed, to analyze and
+    detect phishing in Instant Messages with relevance to domain ontology (OBIE) and
+    utilizes the Classification based on Association (CBA) for generating phishing
+    rules and alerting the victims. A PDS Monitoring system algorithm is used to identify
+    the phishing activity during exchange of messages in IMs, with high ratio of precision
+    and recall. The results have shown improvement by the increased percentage of
+    precision and recall when compared to the existing methods.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: A Unified Multi-Channel Phishing Detection Framework Using Machine Learning
+    and Rule-Based Threat Analysis
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21743123
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Saima Zaheer
+  abstract: Phishing attacks continue to evolve across multiple communication channels
+    including emails, SMS messages, URLs, and websites. This paper presents a unified
+    phishing detection framework that combines machine learning and rule-based threat
+    analysis to identify phishing attempts across different attack vectors. The proposed
+    system employs Calibrated Logistic Regression for SMS and email detection and
+    Random Forest classification for URL and website analysis. Experimental evaluation
+    demonstrated accuracies of 96.32% for SMS detection, 96.59% for email detection,
+    and 98.67% for URL detection. The framework further incorporates threat scoring,
+    explainable security recommendations, and unified risk assessment. Results indicate
+    that the proposed approach provides accurate, interpretable, and practical phishing
+    detection suitable for real-world deployment.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Review on Phishing Threat Advancement in Todays Digital Environments: Detection
+    Techniques, Agents and Future Directions'
+  date: 2026-08
+  url: https://doi.org/10.33003/fjs-2026-1014-5671
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Dauda Buhari
+  - Idris Ismaila
+  - Moses Noel Dogonyaro
+  abstract: Phishing threats serve as a continuous advanced digital security threat
+    which remains active throughout all contemporary online platforms. The researchers
+    conducted a systematic review to study the historical development of phishing
+    link attacks by analyzing 26 peer-reviewed studies that researchers published
+    between 2020 and 2025. The review employs the PRISMA 2020 framework to evaluate
+    phishing agents and attack strategies and detection methods and upcoming research
+    paths which it establishes through evidence from IEEE and ACM and ScienceDirect
+    and Scopus databases. The research shows artificial intelligence combined with
+    social engineering methods and multi-channel delivery systems which include email
+    and SMS and voice calls and social media platforms results in more sophisticated
+    phishing attacks. The research establishes machine learning and deep learning
+    techniques which include CNNs and RNNs and transformers and GCNs and multimodal
+    models as the most effective methods to identify phishing URLs and emails because
+    they achieve more than 95% accuracy across different research studies. The deployment
+    of machine learning solutions encounters difficulties because adversarial attacks
+    and domain adaptation issues and the need for standardized benchmarking datasets
+    remain unresolved. The review establishes that future defense systems need to
+    incorporate explainable AI together with adversarial-resilient models and cross-dataset
+    standardization and multimodal architectures and human-centric training strategies
+    for effective defense against upcoming phishing threats.
+  venue: FUDMA Journal of Sciences
+- title: Design and Motivational Factors for an Effective Educational Game for Malicious
+    Email Detection
+  date: 2026-07
+  url: https://hdl.handle.net/10393/51895
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Vignesh Kumar Karuppasamy
+  abstract: Phishing email attacks remain one of the dominant and ever-evolving cybersecurity
+    threats facing organisations, demanding defensive measures to adapt continually.
+    Existing anti-phishing education methods have narrowly focused on certain aspects
+    of phishing detection, such as URL verification, instead of incorporating insights
+    from learning theory, such as the role of motivation and cognitive message processing
+    in phishing detection. In particular, the effectiveness of collaborative game
+    elements in anti-phishing training remains largely unstudied. This thesis addresses
+    these gaps through two interconnected studies. First, we analyse the Motivated
+    Strategies for Learning Questionnaire (MSLQ) across different instruction modes,
+    including remote, in an undergraduate engineering design course. From this, we
+    derive a validated motivational construct, which we then apply to the anti-phishing
+    training domain. Second, we design and implement Phooled!, a scalable collaborative
+    anti-phishing training game, and evaluate it through a comparative study. We find
+    that collaborative training improves phishing detection efficiency, measured as
+    a balance between accuracy and speed, by 32% compared to the control group. Additionally,
+    we demonstrate that motivation predicts phishing detection improvement, and identify
+    key determinants of phishing email detection difficulty.
+  venue: ''
+- title: ELEVATING PHISHING DETECTION PERFORMANCE WITH MACHINE LEARNING AND DEEP LEARNING-ENABLED
+    FEATURE SELECTION
+  date: 2026-07
+  url: https://doi.org/10.64751/ajaccm.2026.v6.n3.751
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - P. Paul Bharath Bhushan
+  - Bandameedi Sai Charan
+  - Kontham Likitha
+  abstract: 'Phishing remains one of the most persistent and rapidly evolving cybersecurity
+    threats, exploiting deceptive websites, malicious URLs, fraudulent messages, compromised
+    domains, and social-engineering strategies to obtain sensitive information such
+    as usernames, passwords, financial credentials, personal records, and authentication
+    tokens. Conventional phishing detection mechanisms based on blacklists, manually
+    defined rules, static signatures, and heuristic filters provide useful protection
+    against previously identified attacks but often exhibit limited effectiveness
+    against zero-day phishing websites, short-lived malicious domains, obfuscated
+    URLs, and dynamically changing attack patterns. Furthermore, machine learning-based
+    phishing detection models frequently process large and redundant feature spaces
+    containing irrelevant, correlated, or noisy attributes, which may increase computational
+    overhead and reduce generalization capability. This research proposes an intelligent
+    phishing detection framework that integrates machine learning, deep learning-enabled
+    feature selection, multi-source phishing feature extraction, hybrid classification,
+    and real-time risk assessment. The proposed framework extracts URL lexical characteristics,
+    domain and host-based properties, webpage content indicators, Hypertext Markup
+    Language and JavaScript features, security certificate attributes, redirection
+    behavior, and contextual metadata. A deep learningenabled feature selection module
+    employs representation learning and importance estimation to identify the most
+    discriminative phishing indicators while eliminating redundant and low-contribution
+    attributes. The selected feature subset is subsequently evaluated using machine
+    learning classifiers such as Random Forest, Support Vector Machine, XGBoost, and
+    Logistic Regression, together with deep learning architectures including Multilayer
+    Perceptron, Convolutional Neural Network, and Long Short-Term Memory networks.
+    A hybrid decision engine combines model confidence, anomaly indicators, and contextual
+    risk information to classify web resources as legitimate, suspicious, or phishing.
+    The proposed architecture consists of five interconnected layers: Data Acquisition,
+    Preprocessing and Feature Engineering, Deep Learning-Enabled Feature Selection
+    and Intelligent Detection, Risk Assessment and Response, and Application/User
+    layers. Illustrative conceptual evaluation demonstrates that the proposed hybrid
+    framework can achieve higher detection accuracy, precision, recall, F1-score,
+    and lower response latency than blacklist-based, conventional machine learning,
+    and standalone deep learning approaches. The framework provides a scalable foundation
+    for intelligent phishing protection across browsers, email gateways, enterprise
+    networks, financial platforms, educational environments, and cloud-based security
+    services.'
+  venue: American Journal of AI Cyber Computing Management
+- title: 'Hybrid Ensemble Machine Learning for Phishing URL Detection: Integrating
+    Voting Mechanisms, Feature Selection, and Hyperparameter Optimization'
+  date: 2026-07
+  url: https://doi.org/10.1201/9781042001767-26
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - B. Jalender
+  - B.V. Seshu Kumari
+  - D. Anand
+  abstract: Phishing remains one of the most persistent threats in cybersecurity,
+    exploiting deceptive websites and emails to steal sensitive information. While
+    many approaches have been proposed, a universal and highly reliable defence mechanism
+    is still lacking. This study introduces a Hybrid LSD model that integrates Logistic
+    Regression, Support Vector Machine, and Decision Tree classifiers. Unlike conventional
+    ensemble methods, the proposed framework combines canopy-based feature selection,
+    grid search–based hyperparameter tuning, and dual voting strategies (soft and
+    hard) to enhance robustness. Using a publicly available dataset of more than 11,000
+    URLs, the model achieved consistently high detection accuracy while maintaining
+    balanced precision, recall, and specificity. Additional analyses of feature importance,
+    computational efficiency, and statistical significance confirm the model&s;s stability
+    and practical applicability. The results demonstrate that Hybrid LSD offers a
+    scalable and adaptable approach for phishing detection, suitable for integration
+    into real-time security systems.
+  venue: ''
+- title: 'Toward Equitable Arabic Cybersecurity Literacy: A Rubric-Constrained LLM
+    Framework for Phishing Detection and Bilingual Translation Fidelity'
+  date: 2026-08
+  url: https://doi.org/10.3390/mca31050168
+  category: spam-phishing
+  subcategory: dmarc-dkim
+  authors:
+  - Taher M. Ghazal
+  - Fareeha Anwar
+  - Sumaia Mohammed Al-Ghuribi
+  abstract: 'Arabic-speaking populations face disproportionate cybersecurity risks
+    due to the predominantly English-centric design of existing awareness materials,
+    which fail to accommodate Arabic dialectal diversity, script complexity, and culturally
+    embedded communication patterns. These deficiencies impair users’ ability to interpret
+    phishing messages, authentication requests, and security alerts, increasing susceptibility
+    to social engineering, identity theft, and data breaches. This paper presents
+    SECURE-A2RC, a rubric-constrained, Arabic-aware large language model framework
+    designed to deliver scalable, interpretable, and culturally relevant cybersecurity
+    education. The framework comprises two coupled components. The first, the Arabic-Aware
+    Secure Communication Encoder (A-SCE), employs an instruction-tuned LLM to produce
+    multidimensional encodings that capture three learner competencies: security intent
+    comprehension; linguistic deception cue recognition encompassing urgency, authority
+    impersonation, and incentive framing; and action-critical translation fidelity
+    across Arabic dialectal registers and Arabic–English bilingual contexts. The second,
+    the Rubric-Constrained Adaptive Feedback Generator (RCAFG), translates A-SCE encodings
+    into personalized, expert-aligned instructional feedback and proficiency-calibrated
+    adaptive tasks, ensuring pedagogical consistency, security correctness, and dialect
+    awareness throughout the learning cycle. The framework is evaluated on three domain-relevant
+    corpora: the English–Arabic Parallel Phishing Email Corpus, the Open MalSec dataset,
+    and the Arabic Spam and Ham Tweets dataset. SECURE-A2RC achieves a 31% improvement
+    in phishing identification accuracy and a 26% reduction in action-critical translation
+    errors compared to conventional awareness materials. A comparative evaluation
+    against SERENA, a Multi-Agent LLM, and the Arabic Multitask Learning Model confirms
+    consistent superiority across detection accuracy, F1-score, dialectal robustness,
+    and educational effectiveness metrics, affirming rubric-constrained LLM integration
+    as a viable approach to equitable multilingual cybersecurity education.'
+  venue: Mathematical and Computational Applications
+- title: Social Engineering and Phishing Protection using AI-Driven Methods
+  date: 2026-08
+  url: https://doi.org/10.5120/ijca067d2c636364
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Afsana Mustafazade
+  - Mohamed El-Dosuky
+  - Sherif Kamel
+  abstract: Phishing and social engineering attacks remain major cybersecurity threats
+    by exploiting human behavior rather than system vulnerabilities.This paper investigates
+    artificial intelligence (AI)-driven approaches for detecting such attacks through
+    a combination of literature review, dataset evaluation, system design, and experimental
+    analysis.It examines traditional machine learning models, deep learning techniques,
+    and transformer-based natural language processing methods.A hybrid detection framework
+    is proposed, integrating semantic text analysis, deep learning, and URL-based
+    features within a modular architecture.The system is implemented using a finetuned
+    RoBERTa model for email classification and evaluated on multiple benchmark datasets.Results
+    show that transformerbased models achieve high accuracy in identifying contextual
+    and manipulative patterns, while URL-based methods enable fast real-time detection.The
+    findings demonstrate that hybrid approaches significantly enhance detection performance
+    and robustness, particularly against AI-generated phishing attacks, providing
+    a scalable and adaptive solution for modern cybersecurity challenges.
+  venue: International Journal of Computer Applications
+- title: How Effective is Artificial Intelligence at Detecting Phishing Attacks?
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21525805
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Muzaffar Azatovich Sobirov
+  - Abdulloh Abduqodir o'g'li Hamidov
+  abstract: 'AbstractTransformer models now reach more than 98 % accuracy in phishing
+    email detection. However, a single accuracy figure says little about how a filter
+    will behave in practice. It combines two types of error, and their real costs
+    are very different. This paper fine-tunes DistilBERT on 20,000 messages from four
+    public datasets. It then studies three things that accuracy hides: what kind of
+    errors the model makes, how well its probability estimates are calibrated, and
+    how sensitive it is to the decision threshold. The model reaches 98.47 % accuracy
+    and 0.9990 ROC-AUC, which matches published results. Its errors, however, are
+    unbalanced in the wrong direction. False negatives outnumber false positives by
+    55 to 37, so the model is more likely to let a phishing message through than to
+    block a normal one. A reliability diagram shows that the predicted probabilities
+    are well calibrated, so adjusting the threshold is a valid solution. Lowering
+    it from 0.50 to 0.35 removes 25 false negatives but adds 44 false positives. We
+    give the exact cost condition under which this change is worth making.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Human Resource Management and Cybersecurity: Managing Employee Awareness
+    to Prevent Phishing Attacks'
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.22126840
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Nisar Nijam Shaikh
+  - Jasmin Isahak Sayyed
+  abstract: Phishing attacks are asignificant cyber security threat, exploiting human
+    vulnerabilities through deceptive emails, websites, and social engineering techniques
+    to gain unauthorized access to sensitive information. These attacks are becoming
+    increasingly sophisticated, leveraging advanced methods like spear phishing, voice
+    phishing (vishing), and smishing, making it harder for individuals and organizations
+    to recognize them. The paper aims to study the nature, types, and evolution of
+    phishing attacks, with a focus on understanding the factors that contribute to
+    their success. Based on this analysis, the paper proposes a comprehensive framework
+    designed to minimize the impact of phishing attacks. The framework integrates
+    various preventive and detection mechanisms, including user education, advanced
+    AI-based detection systems, secure authentication practices, and real time phishing
+    attack monitoring .Additionally, it suggests a multi-layered approach that combines
+    technological, procedural, and human-centric solutions to create a resilient defense
+    mechanism against phishing.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: An Intelligent Email Spam Detection System Using Machine Learning and Natural
+    Language Processing
+  date: 2026-08
+  url: https://doi.org/10.55041/isjem08504
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - G. Amaladevi
+  - Byreddi Ganesh
+  abstract: 'Abstract Email spam is a persistent problem in digital communication
+    because unsolicited advertisements, phishing attempts, malicious links, and fraudulent
+    messages consume attention and can expose users and organizations to security
+    risks. This paper presents an intelligent email spam detection system that combines
+    Natural Language Processing (NLP) with supervised machine learning to classify
+    email text as spam or non-spam. The system processes labeled email datasets through
+    data cleaning, tokenization, stop-word removal, lemmatization, and feature-vector
+    formation using Bag-of-Words (BoW) and Term Frequency-Inverse Document Frequency
+    (TF-IDF). Five classifiers—Naïve Bayes, Logistic Regression, Random Forest, K-Nearest
+    Neighbors (KNN), and Support Vector Machine (SVM)—are evaluated. The project also
+    implements a proposed ensemble decision in which predictions from the individual
+    classifiers are combined by majority voting. The supplied project experiments
+    use an 80:20 training/testing split and compare models using accuracy, precision,
+    and F1-score. The documented results show that TF-IDF performs better than BoW
+    across the tested models and that the proposed ensemble reaches 99.0% accuracy,
+    98.5% precision, and 98.6% F1-score in the reported evaluation. A Streamlit interface
+    allows users to enter email text or upload a text file and view the classification,
+    model confidence, extracted nouns, and named entities. Keywords: Email Spam Detection,
+    Machine Learning, Natural Language Processing, TF-IDF, Random Forest, Ensemble
+    Learning, Text Classification'
+  venue: International Scientific Journal of Engineering and Management
+- title: Multimodal Zone-Aware Graph-Based Transformer with Continual Learning and
+    Bio-Inspired Optimization for Email Spam Detection
+  date: 2026-07
+  url: https://doi.org/10.3390/app16147107
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - Neomi Nelin Nicholas
+  - V. Nirmalrani
+  abstract: Cyberattacks via email remain a major menace to people, companies, and
+    critical infrastructures, and effective spam and phishing detection is a social
+    concern. Nevertheless, the current methods, such as NetSpam and SMART, tend to
+    have issues with non-homogenous data streams, lack of contextual knowledge, poor
+    generalization, and inability to adapt to changing attack patterns. The existing
+    techniques are not strong in terms of multimodal fusion and cannot effectively
+    transfer trust or update risk scores in dynamic conditions. To overcome these
+    shortcomings, this paper presents a Zone-Aware Multimodal Graph-Based Transformer
+    that combines text, image, video, and metadata streams in a smooth manner to detect
+    threats in emails. The three key novelties of the proposed framework include AAGFusion
+    to contrastively align multimodal features and hierarchically fuse them using
+    transformers; MAGNN-SASO to classify zones, compute similarity across zones, and
+    optimize bio-inspired optimization; and Q-BayesTrustNet-X to propagate trust,
+    risk score, Bayesian calibration, and continual learning, and provide interpretable
+    feedback by using LRP-based explainability. The experimental findings prove that
+    the proposed system has a high level of performance, with the accuracy, precision,
+    and specificity reaching 98.57, 97.51, and 99.48, respectively, which proves its
+    efficiency in high-fidelity and real-world spam and phishing detection.
+  venue: Applied Sciences
+- title: 'AI-Powered Phishing in the Era of Generative AI: Emerging Risks, Business
+    Impact, and Organizational Defense Strategies'
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21408766
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Dr S R Sundaravalli G Kokila Selva Kumari
+  abstract: Artificial Intelligence (AI) is reshaping cybersecurity by enabling both
+    cyber defense and cyber offense. Phishing, one of the oldest cyber threats, has
+    evolved dramatically through Generative AI and Large Language Models (LLMs), which
+    allow attackers to craft personalized, grammatically correct, and context-aware
+    phishing content at scale. AI-powered phishing increases the risk of credential
+    theft, financial fraud, Business Email Compromise (BEC), ransomware, and data
+    breaches, while conventional detection techniques struggle to keep pace. This
+    study examines the evolution of phishing attacks, the role of Generative AI in
+    cybercrime, the business impact of AI-driven attacks on organizations, and existing
+    defense mechanisms, using a qualitative methodology based on secondary data. The
+    findings show that AI has amplified attacker capabilities while simultaneously
+    equipping organizations with powerful tools for threat detection, behavioral analysis,
+    automated incident response, and predictive security. The study proposes the AI-SHIELD
+    Framework, an integrated model combining AI-based detection, employee awareness,
+    identity management, governance, incident response, and continuous monitoring.
+    The research concludes that a proactive, AI-enabled, and governance-driven cybersecurity
+    strategy is essential for organizations to withstand the next generation of phishing
+    threats.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'The Role of Artificial Intelligence in Detecting Social Engineering and
+    Phishing Attacks: Opportunities, Limitations, and Ethical Considerations'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21854968
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Zain Abozaid
+  abstract: Phishing and social engineering remain leading causes of cybersecurity
+    breaches, with the FBI reporting 859,532 complaints and $16.0 billion in losses
+    in 2024. This literature review examines how artificial intelligence (AI) – including
+    machine learning (ML), natural language processing (NLP), deep learning (DL),
+    and large language models (LLMs) – can enhance detection of phishing/social engineering.
+    We compare AI-based techniques to traditional rule-based and heuristic methods,
+    analyzing detection performance, adaptability, false positives/negatives, computational
+    demands, and resilience to adversarial manipulation. Key findings show that AI
+    classifiers (e.g. CNNs, RNNs, BERT) often achieve very high accuracy (e.g. 98–99%
+    on standard email corpora) and can adapt to evolving attacks, but they are vulnerable
+    to adversarial rephrasing and suffer from explainability and data bias issues.
+    Ethical concerns include user privacy (inspecting personal communications), transparency
+    (black-box models), and model bias (especially in cross-cultural contexts). We
+    illustrate these concepts with ScamLens AI app combining NLP analysis of text
+    and URLs with vision-based screenshot scanning, producing risk indicators and
+    explanations. Finally, we identify research gaps – such as limited real-world
+    evaluation, outdated datasets, and the need for phishing-specific LLMs – and outline
+    future directions (adversarial robustness, federated training, multimodal analysis,
+    and human-AI collaboration).
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: A hybrid CNN-BiGRU-attention architecture for enhanced spam email classification
+  date: 2026-07
+  url: https://doi.org/10.1007/s10791-026-10102-3
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - Abdulhanan Sharafat
+  - Samet Aymaz
+  - Cemal Köse
+  abstract: Abstract Email spam detection remains a critical challenge in cybersecurity,
+    as malicious emails and phishing attacks continue to impose substantial economic
+    losses and security risks on organizations. This study presents a hybrid deep
+    learning architecture that integrates Convolutional Neural Networks (CNNs), Bidirectional
+    Gated Recurrent Units (BiGRUs), and an attention mechanism for effective spam
+    email classification. The CNN branch captures local lexical patterns and n-gram
+    features, while the BiGRU branch models long-range sequential dependencies in
+    a bidirectional manner. The attention mechanism further enhances performance by
+    selectively emphasizing salient discriminative features within email content.
+    The proposed framework is evaluated on four widely used benchmark datasets using
+    holdout split evaluation, five-fold cross-validation, and external (cross-dataset)
+    validation. Experimental results demonstrate competitive performance, achieving
+    accuracy of 99.53% on TREC-07, 99.15% on Enron, 99.14% on Spam-Assassin, and 98.96%
+    on Ling-Spam, under comparable experimental settings. Notably, these results are
+    obtained using standard consumer-grade hardware without GPU acceleration, highlighting
+    the model's practical deployability in resource-constrained environments. Overall,
+    this study suggests that the proposed framework offers a computationally efficient
+    and practically deployable approach to spam detection, achieving competitive performance
+    with a balanced trade-off between accuracy and generalization.
+  venue: Discover Computing
+- title: Breaking and Defending LLM-Powered Social Media Bot Detection Systems †
+  date: 2026-08
+  url: https://doi.org/10.53941/pc.2026.100010
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Yoni Birman
+  - Nof Orenstein
+  abstract: The rise of social media bots poses a persistent threat, enabling misinformation,
+    public opinion manipulation, and erosion of trust in online platforms. To combat
+    this, machine learning systems have been developed to detect and limit bot activity.
+    However, attackers continuously adapt through adversarial optimization, behavior
+    imitation, and semantic manipulation strategies, creating an escalating arms race
+    with detection tools. Recent advances in LLMs have significantly improved bot
+    detection by enabling deeper semantic and contextual analysis. However, this shift
+    also introduces new attack surfaces, allowing adversaries to craft exploits that
+    directly target LLM reasoning and generation mechanisms. Industry tools like Anthropic’s
+    Claude Code Security similarly leverage LLMs for security, motivating our study
+    of their attack surfaces. In this work, we explore both offensive and defensive
+    aspects of LLM-powered, threat-specific cybersecurity applications. While centered
+    on the challenge of social media bot detection, our methodology and insights generalize
+    to a broad class of LLM-powered cybersecurity systems, including phishing detection,
+    email classification, fraud analysis, and more. We introduce two novel adversarial
+    attack strategies that systematically exploit semantic and contextual weaknesses
+    of LLM-based classifiers, degrading LLM performance in bot detection by up to
+    48%, and propose a robust multi-LLM defense architecture designed to preserve
+    detection reliability under adaptive adversarial conditions. Our solution, LSABRE,
+    is a multi-LLM framework that improves robustness across various attacks, maintaining
+    86% detection accuracy even under strong adaptive adversarial attacks.
+  venue: Pragmatic Cybersecurity
+- title: Breaking and Defending LLM-Powered Social Media Bot Detection Systems
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.15893
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Nof Orenstein
+  - Yoni Birman
+  abstract: The rise of social media bots poses a persistent threat, enabling misinformation,
+    opinion manipulation, and the erosion of trust in online platforms. To combat
+    this, machine learning systems have been developed to detect and limit bot activity,
+    but attackers continuously adapt through techniques such as adversarial learning
+    and behavior imitation, fueling an ongoing arms race between bots and detection
+    tools. Recent advances in large language models (LLMs) have significantly improved
+    bot detection by enabling deeper semantic and contextual analysis of accounts
+    and their content. However, this shift also introduces new attack surfaces, allowing
+    adversaries to craft exploits that directly target the reasoning and generation
+    mechanisms of LLM-based classifiers. Industry tools such as Anthropic's Claude
+    Code Security similarly leverage LLMs for security-critical decisions, further
+    motivating a careful study of their attack surfaces. In this work, we investigate
+    both the offensive and defensive aspects of LLM-powered, threat-specific cybersecurity
+    applications. While centered on the challenge of social media bot detection, our
+    methodology and insights generalize to a broad class of LLM-powered cybersecurity
+    systems, including phishing detection, email classification, and fraud analysis.
+    We introduce two novel adversarial attack strategies that systematically exploit
+    the semantic and contextual weaknesses of LLM-based classifiers, degrading their
+    detection accuracy by up to 48%. To counter these threats, we propose a robust
+    multi-LLM defense architecture designed to preserve detection reliability under
+    adaptive adversarial conditions. Our solution, LSABRE (LLM-powered Social Adversarial
+    Bot Recognition Ensemble), is a multi-LLM framework that substantially improves
+    robustness across a range of attacks, maintaining 86% detection accuracy even
+    under strong, adaptive adversarial pressure.
+  venue: arXiv (Cornell University)
+- title: 'SPARTA-net: Multi-modal transformer framework with cognitive vulnerability
+    indexing for real-time social engineering attack detection in healthcare IoT and
+    neural rehabilitation systems'
+  date: 2026-08
+  url: https://doi.org/10.1016/j.array.2026.101141
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - Ahmed Abdulhakim Bukhari
+  abstract: 'The proliferation of Internet of Medical Things (IoMT) devices, brain-computer
+    interfaces (BCIs), and tele-rehabilitation platforms has introduced critical cybersecurity
+    vulnerabilities, particularly social engineering attacks that exploit the cognitive
+    limitations of neurologically impaired users. Existing intrusion detection and
+    anomaly detection systems rely on static, rule-based paradigms that cannot model
+    the dynamic socio-psychological manipulation strategies employed by advanced threat
+    actors in healthcare IoT environments. This paper proposes SPARTA-Net (Socio-Psychological
+    AI for Real-Time Threat Assessment Network), a novel deep learning framework that
+    integrates a Multi-Head Cross-Attention Deception Detector (MHCADD) with a real-time
+    Cognitive Vulnerability Index (CVI) for adaptive social engineering attack detection
+    across textual, prosodic, and behavioral biometric modalities. The MHCADD employs
+    cross-attention transformer architecture to capture inter-modal deception cues,
+    while the CVI quantifies user vulnerability using keystroke dynamics, mouse trajectory
+    irregularity, and interaction timing entropy. A gated contextual risk fusion engine
+    combines these signals with environmental features to generate adaptive, user-specific
+    threat scores. A continual learning module based on knowledge distillation addresses
+    concept drift in evolving attack strategies. Experimental evaluation on the publicly
+    available Phishing Email Dataset (available at: https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset
+    ), comprising annotated phishing and legitimate email communications drawn from
+    the Enron, Nazario, CEAS, Ling, and SpamAssassin corpora, with behavioral biometric
+    streams augmented from the CMU Keystroke Dynamics Benchmark Dataset, demonstrates
+    that SPARTA-Net achieves 96.73% detection accuracy, an 8.4% improvement in F1-score,
+    and a 12.7% reduction in false positive rate compared to state-of-the-art baselines
+    including BERT-Phish, DeepSE-Guard, and SE-Transformer. Real-time inference latency
+    of 23.4 ms on GPU hardware suggests potential deployment feasibility in edge-constrained
+    IoMT environments, subject to further clinical validation. Statistical significance
+    (p<0.001, Cohen’s d>1.8) validates the superiority of the proposed framework.
+    SPARTA-Net represents an offline computational proof of concept evaluated entirely
+    on the publicly available SEA-Dataset benchmark; all reported performance metrics
+    are obtained under controlled experimental conditions, and clinical viability
+    remains subject to prospective validation in live tele-rehabilitation environments
+    with certified IoMT hardware.'
+  venue: Array
+- title: A hybrid SHA-256 and variational quantum classifier framework for simulation-based
+    intrusion detection in SDN-IoT networks
+  date: 2026-08
+  url: https://doi.org/10.1007/s43926-026-00474-9
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - Pooja Agarwal
+  - R. K. Srivastava
+  - D. K. Nishad
+  abstract: Abstract The convergence of Software-Defined Networking (SDN) with Internet
+    of Things (IoT) introduces critical security vulnerabilities requiring adaptive
+    detection mechanisms. This paper presents QEIDS, a quantum-enhanced intrusion
+    detection system combining SHA-256 cryptographic fingerprinting with variational
+    quantum classification (VQC) for efficient threat detection in SDN-IoT networks.
+    The three-layer architecture employs SHA-256 hash matching for deterministic primary
+    filtering (handling 60–70% of traffic at 4,000 packets/s), a Variational Quantum
+    Classifier using EfficientSU2 ansatz with ZFeatureMap encoding on 9 qubits for
+    adaptive threat classification of ambiguous traffic, and a decision-tree fallback
+    for interpretable edge-case handling. We establish polynomial sample complexity
+    bounds of O(n³ log n) for the VQC-based learning framework with strategic initialization,
+    compared to higher polynomial or exponential worst-case bounds for partition function
+    computation in classical energy-based models. Extensive evaluation across four
+    benchmark datasets NSL-KDD (148,517 samples, network intrusions), PhiUSIIL (235,162
+    samples, phishing URLs), Android Permissions (29,932 samples, malware), and Email
+    Spam (5,572 samples) demonstrates 97.34% mean detection accuracy with 35% reduction
+    in computational footprint compared to classical deep learning baselines. The
+    hybrid framework achieves 96.8 ms average detection latency under MATLAB 2024b
+    classical simulation, suggesting potential compliance with the sub-100 ms SDN
+    flow-processing threshold; however, hardware validation on actual NISQ devices
+    remains as future work. Additionally, QEIDS attains 99.2% recall on critical attack
+    types (DDoS, probe, and zero-day exploits), 84.27% average zero-shot accuracy
+    on previously unseen attack patterns, and 4.51× faster training convergence compared
+    to CNN-GRU baselines. All results are simulation-based and represent proof-of-concept
+    validation; practical quantum advantage claims require future verification on
+    real quantum hardware.
+  venue: Discover Internet of Things
+- title: PhishLens
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21829774
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Javara A Bukhsh
+  - Maya Daneva
+  - Marten van Sinderen
+  abstract: PhishLens is a reproducible evaluation framework that uses pre-trained
+    Small Language Models (SLMs) through zero-shot prompting to classify phishing
+    emails, generate natural language explanations, and identify persuasion principles
+    in phishing content. The framework evaluates five SLMs, LLaMA 3.2, Qwen 2.5, Ministral
+    3, Gemma 3, and Phi-4 Mini, across nine benchmark phishing datasets containing
+    over 26,000 emails, without any model fine-tuning or architectural modification.
+    This repository contains the Python scripts used for phishing detection, persuasion
+    principle analysis, and evaluation metrics computation, accompanying the paper
+    accepted at EDOC 2026.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'ahlamcod/ImmunoDefender_Data: ImmunoDefender Dataset v1.0.0'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22016822
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Ahlam Ould Khesal
+  abstract: 'Cleaned datasets used in the experiments of the manuscript "ImmunoDefender:
+    A Bio-Inspired Multi-Layer System for Detecting Social Engineering Attacks." The
+    repository contains separate cleaned datasets for phishing email and smishing
+    detection.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: The Impacts of Generative AI on Individual Ability to Detect AI-Generated
+    Deceptions
+  date: 2026-08
+  url: https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1340&context=amcis2026
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Akanksha Shukla
+  - Thuan Nguyen
+  - Hannatu Danjuma
+  abstract: Generative artificial intelligence (GAI) is reshaping cybersecurity by
+    enabling increasingly sophisticated attacks such as AI-generated phishing emails
+    and deepfake videos. While prior research emphasizes technological defenses and
+    adversarial risks, less is known about how routine AI use influences individuals’
+    ability to detect AI-generated deception. Drawing on cognitive offloading theory
+    and media richness theory, this study examines how AI workflow assimilation, distinguishing
+    between automation and augmentation, affects deception detection capability. We
+    propose that automation, characterized by substitutive AI use, reduces cognitive
+    vigilance and impairs detection accuracy, whereas augmentation, involving complementary
+    human–AI collaboration, enhances analytical engagement and improves detection
+    performance. Further, we argue that these effects are moderated by media richness,
+    with stronger impacts under high-richness threats such as deepfake videos compared
+    to text-based phishing. This study will advance a socio-cognitive perspective
+    on AI-enabled cybersecurity vulnerabilities and contribute to understanding the
+    human consequences of generative AI adoption.
+  venue: Journal of the Association for Information Systems
+- title: Mitigating the Proliferation of Fake News on Social Media with Machine Learning
+    Algorithms
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21372162
+  category: spam-phishing
+  subcategory: exchange
+  authors:
+  - Holly Kwan
+  abstract: The proliferation of fake news on social media platforms poses a growing
+    threat to politicaland economic stability, extending far beyond the earlier eras
+    of email spam and phishing. Thispaper surveys and evaluates machine learning approaches
+    to fake news detection, including contentbased (CB) methods, social-based methods–
+    logistic regression (LR) and harmonic boolean labelcrowdsourcing (HC)– and hybrid
+    combinations thereof, evaluated on the FacebookData, PolitiFact,and BuzzFeed datasets.
+    As an additional contribution, a Support Vector Machine (SVM) classifierwith a
+    radial basis function (RBF) kernel is implemented in R and applied to the BuzzFeedDatadataset
+    using social engagement features (rating, share count, reaction count, and comment
+    count)to distinguish factual from non-factual news
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'LureBench: A Benchmark and Evaluation Harness for Detecting AI-Generated
+    Fraud Lures'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22072313
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Fnu Imran Ahamed
+  abstract: 'LureBench is a Python benchmark and evaluation harness for detecting
+    AI-generated fraud lures across phishing, business email compromise, romance and
+    pig-butchering typologies. It ships a distribution-matched corpus in nine languages,
+    detector baselines from keyword rules through a trained classifier to LLM-as-classifier
+    judges, and an adversarial layer of character-level and LLM-driven evasion attacks.
+    Detectors are scored on two tasks: fraud (is this a lure?) and provenance (did
+    a machine write it?). The project documents several measurement results, including
+    a corpus confound that makes AI-vs-human fraud detection look trivially easy until
+    the classes are distribution-matched, a defang artifact that inflates apparent
+    multilingual recall, and a robustness ordering that inverts depending on whether
+    the attack changes spelling or meaning. Everything runs without model downloads
+    or API keys; provider keys are needed only to generate new lures or to run LLM-backed
+    detectors and attacks.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Navigating AI Errors: The Role of Mental Models in Human-AI Team Performance'
+  date: 2026-07
+  url: https://doi.org/10.1177/10711813261475166
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Danielle Sanchez
+  - Caitlin Lancaster
+  - Emily Winokur
+  abstract: Performance of human-AI teams depends on both AI’s overall accuracy and
+    human’s ability to detect errors and form an accurate understanding of system
+    behaviors. Little prior research has compared how different patterns of AI errors
+    (i.e., when and how they occur) shapes users’ mental models that underpin human
+    oversight. To address this gap, we conducted an online experiment ( N = 380) exploring
+    how error patterns influence individuals’ ability to detect AI errors and develop
+    effective mental models of system accuracy in a phishing email classification
+    task. Our findings demonstrate that while different error patterns did not significantly
+    influence participants’ ability to detect AI errors, it shaped their perceptions
+    of how the AI performed over the interaction. This work demonstrates that error
+    pattern effects are more evident in users’ interpretations of system behavior
+    than in their detection performance. This distinction advances theoretical models
+    of monitoring and mental model development in AI-supported decision environments.
+  venue: Proceedings of the Human Factors and Ergonomics Society Annual Meeting
+- title: A comprehensive analysis of adversarial attacks against spam filters
+  date: 2026-07
+  url: https://arxiv.org/abs/2505.03831
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - Esra Hotoğlu
+  - Sevil Şen
+  - Burcu Can
+  abstract: ''
+  venue: Computers & Security
