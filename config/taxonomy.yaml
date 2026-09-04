@@ -1,338 +1,341 @@
-# Email Infrastructure Research Taxonomy & Discovery Config
-#
-# Focus: email protocols, mail servers, mailbox migration, email security
-# (DMARC/DKIM/SPF/BIMI), anti-spam and anti-phishing, and AI-assisted email
-#
-# Pipeline: config/taxonomy.yaml -> papers.yaml -> validate -> README -> reports
-# please edit below for your topic -------------------------------------------
-
-# --- Topic -----------------------------------------------------------
 topic:
-  name: "Email Infrastructure Research"
-  short: "email"
-  description: "Email protocols and servers, mailbox migration, email security standards, anti-spam/anti-phishing, and AI-assisted email."
-  openalex_mailto: "tobias@tobias-weiss.org"
-
-# --- Taxonomy ----------------------------------------------------------
-# Categories = the main axis of your review
-# Subcategories = the secondary axis
-# Each paper must carry one category + one subcategory.
+  name: Email Infrastructure Research
+  short: email
+  description: Email protocols and servers, mailbox migration, email security standards, anti-spam/anti-phishing,
+    and AI-assisted email.
+  openalex_mailto: tobias@tobias-weiss.org
 taxonomy:
   categories:
-    - id: protocols
-      display: "Protocols & Interop"
-      description: "IMAP, JMAP, SMTP, POP3, Exchange/EWS and email protocol evolution"
-
-    - id: mail-servers
-      display: "Mail Servers & Storage"
-      description: "Server implementations, mailbox storage, threading, LDAP/OIDC integration"
-
-    - id: delivery-security
-      display: "Delivery Security"
-      description: "DMARC, DKIM, SPF, BIMI, TLS/STARTTLS, MTA-STS and authentication standards"
-
-    - id: spam-phishing
-      display: "Spam & Phishing"
-      description: "Spam filtering, phishing detection, sender reputation and abuse frameworks"
-
-    - id: mailbox-migration
-      display: "Mailbox Migration"
-      description: "Migration tooling, sync, coexistence, EAS bridging and cutover strategies"
-
-    - id: ai-email
-      display: "AI-Assisted Email"
-      description: "Email classification, triage, summarization, drafting and AI agents in mail"
-
-    - id: privacy-compliance
-      display: "Privacy & Compliance"
-      description: "Encryption (PGP/S/MIME), data protection, e-discovery and retention"
-
-    - id: surveys
-      display: "Surveys"
-      description: "Reviews and systematic studies of email infrastructure research"
-
+  - id: protocols
+    display: Protocols & Interop
+    description: IMAP, JMAP, SMTP, POP3, Exchange/EWS and email protocol evolution
+  - id: mail-servers
+    display: Mail Servers & Storage
+    description: Server implementations, mailbox storage, threading, LDAP/OIDC integration
+  - id: delivery-security
+    display: Delivery Security
+    description: DMARC, DKIM, SPF, BIMI, TLS/STARTTLS, MTA-STS and authentication standards
+  - id: spam-phishing
+    display: Spam & Phishing
+    description: Spam filtering, phishing detection, sender reputation and abuse frameworks
+  - id: mailbox-migration
+    display: Mailbox Migration
+    description: Migration tooling, sync, coexistence, EAS bridging and cutover strategies
+  - id: ai-email
+    display: AI-Assisted Email
+    description: Email classification, triage, summarization, drafting and AI agents in mail
+  - id: privacy-compliance
+    display: Privacy & Compliance
+    description: Encryption (PGP/S/MIME), data protection, e-discovery and retention
+  - id: surveys
+    display: Surveys
+    description: Reviews and systematic studies of email infrastructure research
   subcategories:
-    # Protocols & Interop
-    - id: imap
-      category: protocols
-      display: "IMAP & JMAP"
-      description: "IMAP4, JMAP, synchronization and mailbox access protocols"
-
-    - id: smtp
-      category: protocols
-      display: "SMTP & Delivery"
-      description: "SMTP, message routing, queueing and delivery infrastructure"
-
-    - id: exchange
-      category: protocols
-      display: "Exchange & EAS"
-      description: "Exchange Web Services, ActiveSync and legacy protocol bridging"
-
-    # Mail Servers
-    - id: server-impl
-      category: mail-servers
-      display: "Server Implementations"
-      description: "Dovecot, Postfix, Stalwart and other server designs"
-
-    - id: storage-format
-      category: mail-servers
-      display: "Storage & Indexing"
-      description: "Maildir/mbox, index formats, search and database-backed storage"
-
-    - id: identity
-      category: mail-servers
-      display: "Identity & Auth"
-      description: "LDAP, OIDC, SASL and mailbox authentication and authorization"
-
-    # Delivery Security
-    - id: dmarc-dkim
-      category: delivery-security
-      display: "DMARC/DKIM/SPF"
-      description: "Domain authentication standards and alignment"
-
-    - id: bimi-branding
-      category: delivery-security
-      display: "BIMI & Branding"
-      description: "Brand Indicators for Message Identification and logo verification"
-
-    - id: transport-security
-      category: delivery-security
-      display: "Transport Security"
-      description: "STARTTLS, MTA-STS, DANE and opportunistic TLS hardening"
-
-    # Spam & Phishing
-    - id: spam-filtering
-      category: spam-phishing
-      display: "Spam Filtering"
-      description: "Bayesian, ML and rule-based spam classification"
-
-    - id: phishing-detection
-      category: spam-phishing
-      display: "Phishing Detection"
-      description: "Detecting phishing, spoofing and malicious payloads"
-
-    - id: reputation
-      category: spam-phishing
-      display: "Reputation & Feedback"
-      description: "Sender reputation, feedback loops, blocklists and SRS"
-
-    # Mailbox Migration
-    - id: migration-tools
-      category: mailbox-migration
-      display: "Migration Tooling"
-      description: "Imapsync-style tools, delta sync and batch migration"
-
-    - id: coexistence
-      category: mailbox-migration
-      display: "Coexistence & Cutover"
-      description: "Hybrid deployments, parallel operation and cutover risk"
-
-    # AI-Assisted Email
-    - id: classification
-      category: ai-email
-      display: "Email Classification"
-      description: "Triage, routing and intent classification of email"
-
-    - id: summarization
-      category: ai-email
-      display: "Summarization & Drafting"
-      description: "LLM-based summaries, replies and drafting assistance"
-
-    - id: agents
-      category: ai-email
-      display: "Email Agents"
-      description: "Autonomous agents acting on mailboxes and task extraction"
-
-    # Privacy & Compliance
-    - id: encryption
-      category: privacy-compliance
-      display: "Email Encryption"
-      description: "PGP, S/MIME, end-to-end and at-rest encryption"
-
-    - id: data-protection
-      category: privacy-compliance
-      display: "Data Protection"
-      description: "GDPR, retention, e-discovery and lawful access"
-
-    # Surveys
-    - id: survey
-      category: surveys
-      display: "Surveys"
-      description: "Systematic reviews and research surveys"
-
-# --- Discovery: arXiv queries (fetch_new_papers.py) -------------------------------
-# Each entry is an arXiv API query string (cat: + abs:/ti: operators).
-arxiv_queries:
-  - query: 'cat:cs.CR AND (abs:"email security" OR abs:"email infrastructure" OR abs:"email system")'
-    category: delivery-security
-
-  - query: 'cat:cs.CR AND (abs:"DMARC" OR abs:"DKIM" OR abs:"SPF" OR abs:"email authentication" OR abs:"email spoofing")'
-    category: dmarc-dkim
-
-  - query: 'cat:cs.CR AND (abs:"phishing" OR abs:"phish")'
-    category: phishing-detection
-
-  - query: 'cat:cs.CR AND (abs:"spam detection" OR abs:"spam filtering" OR abs:"spam classification")'
-    category: spam-filtering
-
-  - query: 'cat:cs.CR AND (abs:"sender reputation" OR abs:"email reputation" OR abs:"open relay")'
-    category: reputation
-
-  - query: 'cat:cs.NI AND (abs:"email protocol" OR abs:"IMAP" OR abs:"JMAP")'
-    category: imap
-
-  - query: 'cat:cs.NI AND (abs:"SMTP" OR abs:"mail transfer")'
-    category: smtp
-
-  - query: 'cat:cs.CR AND (abs:"STARTTLS" OR abs:"MTA-STS" OR abs:"DANE" OR abs:"transport security" AND abs:"email")'
-    category: transport-security
-
-  - query: 'cat:cs.LG AND (abs:"email classification" OR abs:"email triage" OR abs:"email intent")'
-    category: classification
-
-  - query: 'cat:cs.CL AND (abs:"email summarization" OR abs:"email generation" OR abs:"email drafting")'
-    category: summarization
-
-  - query: 'cat:cs.LG AND (abs:"spam" AND abs:"machine learning")'
-    category: spam-filtering
-
-  - query: 'cat:cs.CY AND (abs:"email privacy" OR abs:"email encryption" OR abs:"PGP")'
-    category: encryption
-
-  - query: 'cat:cs.CY AND (abs:"email" AND abs:"phishing awareness")'
-    category: phishing-detection
-
-  - query: 'cat:cs.SE AND (abs:"mail server" OR abs:"email server")'
-    category: server-impl
-
-  - query: 'cat:cs.CR AND (abs:"BIMI" OR abs:"brand indicators for message identification")'
-    category: bimi-branding
-
-  - query: 'cat:cs.NI AND (abs:"spoofing" OR abs:"spear phishing" OR abs:"business email compromise")'
-    category: phishing-detection
-
-  - query: 'cat:cs.LG AND (abs:"email" AND (abs:"anomaly detection" OR abs:"outlier"))'
-    category: agents
-
-  - query: 'cat:cs.CY AND (abs:"e-discovery" OR abs:"email retention" OR abs:"mailbox forensics")'
-    category: data-protection
-
-  - query: 'cat:cs.AI AND (abs:"email" AND (abs:"agent" OR abs:"automation"))'
-    category: agents
-
-  - query: 'cat:cs.DC AND (abs:"mailbox migration" OR abs:"email migration")'
-    category: migration-tools
-
-# --- Discovery: OpenAlex bulk queries (fetch_openalex_bulk.py) ---
-# Each entry defines one query phrase.
-openalex_queries:
-  - category: dmarc-dkim
-    query: "DMARC DKIM SPF email authentication"
-
-  - category: phishing-detection
-    query: "phishing detection email"
-
-  - category: spam-filtering
-    query: "spam filtering machine learning"
-
-  - category: delivery-security
-    query: "email security spoofing"
-
-  - category: imap
-    query: "IMAP JMAP mail protocol"
-
-  - category: migration-tools
-    query: "mailbox migration email"
-
-  - category: classification
-    query: "email classification triage"
-
-  - category: summarization
-    query: "email summarization language model"
-
-  - category: encryption
-    query: "email encryption PGP"
-
-  - category: transport-security
-    query: "email transport security DNSSEC"
-
-  - category: reputation
-    query: "email deliverability reputation"
-
-  - category: agents
-    query: "email agent automation work"
-
-  - category: server-impl
-    query: "mail server architecture"
-
-# --- Multi-source queries (fetch_other_sources.py) ---
-other_sources_queries:
-  - source: dblp
-    query: "phishing detection"
-    category: phishing-detection
-  - source: crossref
-    query: "DMARC email authentication"
-    category: dmarc-dkim
-  - source: crossref
-    query: "email summarization LLM"
-    category: summarization
-  - source: dblp
-    query: "spam filtering"
-    category: spam-filtering
-
-# --- Trend keywords for standard_stats.py ---
-trend_keywords:
-  - "DMARC"
-  - "DKIM"
-  - "SPF"
-  - "phishing"
-  - "spam"
-  - "JMAP"
-  - "IMAP"
-  - "mailbox migration"
-  - "email security"
-  - "email classifier"
-  - "LLM"
-
-# --- Subcategory keywords for auto-classification (classify_subcategory) ---
-subcategory_keywords:
   - id: imap
-    keywords: ["IMAP", "JMAP", "mailbox protocol", "message access"]
+    category: protocols
+    display: IMAP & JMAP
+    description: IMAP4, JMAP, synchronization and mailbox access protocols
   - id: smtp
-    keywords: ["SMTP", "mail transfer", "message routing", "mail relay"]
+    category: protocols
+    display: SMTP & Delivery
+    description: SMTP, message routing, queueing and delivery infrastructure
   - id: exchange
-    keywords: ["Exchange", "ActiveSync", "EWS", "web services"]
+    category: protocols
+    display: Exchange & EAS
+    description: Exchange Web Services, ActiveSync and legacy protocol bridging
   - id: server-impl
-    keywords: ["mail server", "email server", "Dovecot", "Postfix", "Stalwart"]
+    category: mail-servers
+    display: Server Implementations
+    description: Dovecot, Postfix, Stalwart and other server designs
   - id: storage-format
-    keywords: ["Maildir", "mbox", "mailbox storage", "email indexing", "mail search"]
+    category: mail-servers
+    display: Storage & Indexing
+    description: Maildir/mbox, index formats, search and database-backed storage
   - id: identity
-    keywords: ["LDAP", "OIDC", "SASL", "mailbox authentication", "authorization"]
+    category: mail-servers
+    display: Identity & Auth
+    description: LDAP, OIDC, SASL and mailbox authentication and authorization
   - id: dmarc-dkim
-    keywords: ["DMARC", "DKIM", "SPF", "email authentication", "spoofing", "impersonation", "domain alignment"]
+    category: delivery-security
+    display: DMARC/DKIM/SPF
+    description: Domain authentication standards and alignment
   - id: bimi-branding
-    keywords: ["BIMI", "brand indicator"]
+    category: delivery-security
+    display: BIMI & Branding
+    description: Brand Indicators for Message Identification and logo verification
   - id: transport-security
-    keywords: ["STARTTLS", "MTA-STS", "DANE", "transport security", "TLS"]
+    category: delivery-security
+    display: Transport Security
+    description: STARTTLS, MTA-STS, DANE and opportunistic TLS hardening
   - id: spam-filtering
-    keywords: ["spam", "junk mail", "spam filter", "spam detection", "ham"]
+    category: spam-phishing
+    display: Spam Filtering
+    description: Bayesian, ML and rule-based spam classification
   - id: phishing-detection
-    keywords: ["phishing", "spear phishing", "business email compromise", "phish", "social engineering"]
+    category: spam-phishing
+    display: Phishing Detection
+    description: Detecting phishing, spoofing and malicious payloads
   - id: reputation
-    keywords: ["reputation", "feedback loop", "blocklist", "denylist", "SRS", "deliverability", "sender score"]
+    category: spam-phishing
+    display: Reputation & Feedback
+    description: Sender reputation, feedback loops, blocklists and SRS
   - id: migration-tools
-    keywords: ["migration", "imapsync", "delta sync", "mailbox migration"]
+    category: mailbox-migration
+    display: Migration Tooling
+    description: Imapsync-style tools, delta sync and batch migration
   - id: coexistence
-    keywords: ["coexistence", "cutover", "hybrid deployment"]
+    category: mailbox-migration
+    display: Coexistence & Cutover
+    description: Hybrid deployments, parallel operation and cutover risk
   - id: classification
-    keywords: ["email classification", "triage", "email intent", "email routing", "email prioritization"]
+    category: ai-email
+    display: Email Classification
+    description: Triage, routing and intent classification of email
   - id: summarization
-    keywords: ["email summarization", "email summary", "email drafting", "reply generation", "email generation"]
+    category: ai-email
+    display: Summarization & Drafting
+    description: LLM-based summaries, replies and drafting assistance
   - id: agents
-    keywords: ["email agent", "mail agent", "autonomous email", "email assistant", "task extraction"]
+    category: ai-email
+    display: Email Agents
+    description: Autonomous agents acting on mailboxes and task extraction
   - id: encryption
-    keywords: ["PGP", "OpenPGP", "S/MIME", "end-to-end encryption", "email encryption"]
+    category: privacy-compliance
+    display: Email Encryption
+    description: PGP, S/MIME, end-to-end and at-rest encryption
   - id: data-protection
-    keywords: ["e-discovery", "retention", "GDPR", "email forensics", "lawful access"]
+    category: privacy-compliance
+    display: Data Protection
+    description: GDPR, retention, e-discovery and lawful access
   - id: survey
-    keywords: ["survey", "systematic review", "literature review", "overview"]
+    category: surveys
+    display: Surveys
+    description: Systematic reviews and research surveys
+arxiv_queries:
+- query: cat:cs.CR AND (abs:"email security" OR abs:"email infrastructure" OR abs:"email system")
+  category: delivery-security
+- query: cat:cs.CR AND (abs:"DMARC" OR abs:"DKIM" OR abs:"SPF" OR abs:"email authentication" OR abs:"email spoofing")
+  category: delivery-security
+- query: cat:cs.CR AND (abs:"phishing" OR abs:"phish")
+  category: spam-phishing
+- query: cat:cs.CR AND (abs:"spam detection" OR abs:"spam filtering" OR abs:"spam classification")
+  category: spam-phishing
+- query: cat:cs.CR AND (abs:"sender reputation" OR abs:"email reputation" OR abs:"open relay")
+  category: spam-phishing
+- query: cat:cs.NI AND (abs:"email protocol" OR abs:"IMAP" OR abs:"JMAP")
+  category: protocols
+- query: cat:cs.NI AND (abs:"SMTP" OR abs:"mail transfer")
+  category: protocols
+- query: cat:cs.CR AND (abs:"STARTTLS" OR abs:"MTA-STS" OR abs:"DANE" OR abs:"transport security" AND abs:"email")
+  category: delivery-security
+- query: cat:cs.LG AND (abs:"email classification" OR abs:"email triage" OR abs:"email intent")
+  category: ai-email
+- query: cat:cs.CL AND (abs:"email summarization" OR abs:"email generation" OR abs:"email drafting")
+  category: ai-email
+- query: cat:cs.LG AND (abs:"spam" AND abs:"machine learning")
+  category: spam-phishing
+- query: cat:cs.CY AND (abs:"email privacy" OR abs:"email encryption" OR abs:"PGP")
+  category: privacy-compliance
+- query: cat:cs.CY AND (abs:"email" AND abs:"phishing awareness")
+  category: spam-phishing
+- query: cat:cs.SE AND (abs:"mail server" OR abs:"email server")
+  category: mail-servers
+- query: cat:cs.CR AND (abs:"BIMI" OR abs:"brand indicators for message identification")
+  category: delivery-security
+- query: cat:cs.NI AND (abs:"spoofing" OR abs:"spear phishing" OR abs:"business email compromise")
+  category: spam-phishing
+- query: cat:cs.LG AND (abs:"email" AND (abs:"anomaly detection" OR abs:"outlier"))
+  category: ai-email
+- query: cat:cs.CY AND (abs:"e-discovery" OR abs:"email retention" OR abs:"mailbox forensics")
+  category: privacy-compliance
+- query: cat:cs.AI AND (abs:"email" AND (abs:"agent" OR abs:"automation"))
+  category: ai-email
+- query: cat:cs.DC AND (abs:"mailbox migration" OR abs:"email migration")
+  category: mailbox-migration
+openalex_queries:
+- category: delivery-security
+  query: DMARC DKIM SPF email authentication
+- category: spam-phishing
+  query: phishing detection email
+- category: spam-phishing
+  query: spam filtering machine learning
+- category: delivery-security
+  query: email security spoofing
+- category: protocols
+  query: IMAP JMAP mail protocol
+- category: mailbox-migration
+  query: mailbox migration email
+- category: ai-email
+  query: email classification triage
+- category: ai-email
+  query: email summarization language model
+- category: privacy-compliance
+  query: email encryption PGP
+- category: delivery-security
+  query: email transport security DNSSEC
+- category: spam-phishing
+  query: email deliverability reputation
+- category: ai-email
+  query: email agent automation work
+- category: mail-servers
+  query: mail server architecture
+other_sources_queries:
+- source: dblp
+  query: phishing detection
+  category: spam-phishing
+- source: crossref
+  query: DMARC email authentication
+  category: delivery-security
+- source: crossref
+  query: email summarization LLM
+  category: ai-email
+- source: dblp
+  query: spam filtering
+  category: spam-phishing
+trend_keywords:
+- DMARC
+- DKIM
+- SPF
+- phishing
+- spam
+- JMAP
+- IMAP
+- mailbox migration
+- email security
+- email classifier
+- LLM
+subcategory_keywords:
+- id: imap
+  keywords:
+  - IMAP
+  - JMAP
+  - mailbox protocol
+  - message access
+- id: smtp
+  keywords:
+  - SMTP
+  - mail transfer
+  - message routing
+  - mail relay
+- id: exchange
+  keywords:
+  - Exchange
+  - ActiveSync
+  - EWS
+  - web services
+- id: server-impl
+  keywords:
+  - mail server
+  - email server
+  - Dovecot
+  - Postfix
+  - Stalwart
+- id: storage-format
+  keywords:
+  - Maildir
+  - mbox
+  - mailbox storage
+  - email indexing
+  - mail search
+- id: identity
+  keywords:
+  - LDAP
+  - OIDC
+  - SASL
+  - mailbox authentication
+  - authorization
+- id: dmarc-dkim
+  keywords:
+  - DMARC
+  - DKIM
+  - SPF
+  - email authentication
+  - spoofing
+  - impersonation
+  - domain alignment
+- id: bimi-branding
+  keywords:
+  - BIMI
+  - brand indicator
+- id: transport-security
+  keywords:
+  - STARTTLS
+  - MTA-STS
+  - DANE
+  - transport security
+  - TLS
+- id: spam-filtering
+  keywords:
+  - spam
+  - junk mail
+  - spam filter
+  - spam detection
+  - ham
+- id: phishing-detection
+  keywords:
+  - phishing
+  - spear phishing
+  - business email compromise
+  - phish
+  - social engineering
+- id: reputation
+  keywords:
+  - reputation
+  - feedback loop
+  - blocklist
+  - denylist
+  - SRS
+  - deliverability
+  - sender score
+- id: migration-tools
+  keywords:
+  - migration
+  - imapsync
+  - delta sync
+  - mailbox migration
+- id: coexistence
+  keywords:
+  - coexistence
+  - cutover
+  - hybrid deployment
+- id: classification
+  keywords:
+  - email classification
+  - triage
+  - email intent
+  - email routing
+  - email prioritization
+- id: summarization
+  keywords:
+  - email summarization
+  - email summary
+  - email drafting
+  - reply generation
+  - email generation
+- id: agents
+  keywords:
+  - email agent
+  - mail agent
+  - autonomous email
+  - email assistant
+  - task extraction
+- id: encryption
+  keywords:
+  - PGP
+  - OpenPGP
+  - S/MIME
+  - end-to-end encryption
+  - email encryption
+- id: data-protection
+  keywords:
+  - e-discovery
+  - retention
+  - GDPR
+  - email forensics
+  - lawful access
+- id: survey
+  keywords:
+  - survey
+  - systematic review
+  - literature review
+  - overview
