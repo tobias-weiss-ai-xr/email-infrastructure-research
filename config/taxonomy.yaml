@@ -293,3 +293,46 @@ trend_keywords:
   - "email security"
   - "email classifier"
   - "LLM"
+
+# --- Subcategory keywords for auto-classification (classify_subcategory) ---
+subcategory_keywords:
+  - id: imap
+    keywords: ["IMAP", "JMAP", "mailbox protocol", "message access"]
+  - id: smtp
+    keywords: ["SMTP", "mail transfer", "message routing", "mail relay"]
+  - id: exchange
+    keywords: ["Exchange", "ActiveSync", "EWS", "web services"]
+  - id: server-impl
+    keywords: ["mail server", "email server", "Dovecot", "Postfix", "Stalwart"]
+  - id: storage-format
+    keywords: ["Maildir", "mbox", "mailbox storage", "email indexing", "mail search"]
+  - id: identity
+    keywords: ["LDAP", "OIDC", "SASL", "mailbox authentication", "authorization"]
+  - id: dmarc-dkim
+    keywords: ["DMARC", "DKIM", "SPF", "email authentication", "spoofing", "impersonation", "domain alignment"]
+  - id: bimi-branding
+    keywords: ["BIMI", "brand indicator"]
+  - id: transport-security
+    keywords: ["STARTTLS", "MTA-STS", "DANE", "transport security", "TLS"]
+  - id: spam-filtering
+    keywords: ["spam", "junk mail", "spam filter", "spam detection", "ham"]
+  - id: phishing-detection
+    keywords: ["phishing", "spear phishing", "business email compromise", "phish", "social engineering"]
+  - id: reputation
+    keywords: ["reputation", "feedback loop", "blocklist", "denylist", "SRS", "deliverability", "sender score"]
+  - id: migration-tools
+    keywords: ["migration", "imapsync", "delta sync", "mailbox migration"]
+  - id: coexistence
+    keywords: ["coexistence", "cutover", "hybrid deployment"]
+  - id: classification
+    keywords: ["email classification", "triage", "email intent", "email routing", "email prioritization"]
+  - id: summarization
+    keywords: ["email summarization", "email summary", "email drafting", "reply generation", "email generation"]
+  - id: agents
+    keywords: ["email agent", "mail agent", "autonomous email", "email assistant", "task extraction"]
+  - id: encryption
+    keywords: ["PGP", "OpenPGP", "S/MIME", "end-to-end encryption", "email encryption"]
+  - id: data-protection
+    keywords: ["e-discovery", "retention", "GDPR", "email forensics", "lawful access"]
+  - id: survey
+    keywords: ["survey", "systematic review", "literature review", "overview"]
