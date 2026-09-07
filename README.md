@@ -6,16 +6,16 @@ Bootstrap in progress.
 
 ## 📊 Corpus Statistics
 
-**1604 papers** across **7 categories**.  
+**1607 papers** across **7 categories**.  
 Sources: **arXiv** 157 (10%).  
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| spam-phishing | **1180** | 467 | ████████████ |
+| spam-phishing | **1182** | 469 | ████████████ |
 | ai-email | **251** | 171 | ███░░░░░░░░░ |
-| delivery-security | **119** | 63 | █░░░░░░░░░░░ |
+| delivery-security | **120** | 64 | █░░░░░░░░░░░ |
 | mail-servers | **29** | 12 | █░░░░░░░░░░░ |
 | privacy-compliance | **16** | 7 | █░░░░░░░░░░░ |
 | mailbox-migration | **8** | 8 | █░░░░░░░░░░░ |
@@ -28,25 +28,25 @@ Sources: **arXiv** 157 (10%).
 | 2023 | 105 | ██░░░░░░░░░░ |
 | 2024 | 405 | █████████░░░ |
 | 2025 | 537 | ████████████ |
-| 2026 | 557 | ████████████ |
+| 2026 | 560 | ████████████ |
 
 ### Momentum (hottest categories)
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
 | Ai Email | 251 | 14.2/mo | 68% | 332 |
-| Delivery Security | 119 | 5.2/mo | 53% | 150 |
+| Delivery Security | 120 | 5.3/mo | 53% | 153 |
 | Mail Servers | 29 | 1.0/mo | 41% | 141 |
 | Mailbox Migration | 8 | 0.7/mo | 100% | 100 |
 | Protocols | 1 | 0.1/mo | 100% | 100 |
-| Spam Phishing | 1180 | 38.9/mo | 40% | 50 |
+| Spam Phishing | 1182 | 39.1/mo | 40% | 51 |
 | Privacy Compliance | 16 | 0.6/mo | 44% | 44 |
 
 ### Trending keywords
 
 | Keyword | Papers | Burst |
 |---------|--------|-------|
-| phishing | 352 | 0.96 |
+| phishing | 355 | 0.96 |
 | spam | 240 | 0.88 |
 | email security | 38 | 0.7 |
 | email classifier | 1 | 0.55 |
@@ -55,7 +55,7 @@ Sources: **arXiv** 157 (10%).
 
 | Venue | Papers |
 |-------|--------|
-| Zenodo (CERN European Organization for Nuclear Research) | 148 |
+| Zenodo (CERN European Organization for Nuclear Research) | 149 |
 | Lecture notes in networks and systems | 39 |
 | arXiv (Cornell University) | 33 |
 | INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT | 30 |

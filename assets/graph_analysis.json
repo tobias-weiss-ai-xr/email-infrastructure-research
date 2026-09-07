@@ -25,23 +25,23 @@
   {
    "id": "delivery-security",
    "name": "Delivery Security",
-   "count": 119,
+   "count": 120,
    "trajectory": {
     "2023": 6,
     "2024": 23,
     "2025": 41,
-    "2026": 49
+    "2026": 50
    },
    "momentum": {
     "id": "delivery-security",
     "name": "Delivery Security",
-    "total": 119,
-    "recent": 63,
+    "total": 120,
+    "recent": 64,
     "prior": 32,
-    "growth_pct": 96.9,
-    "recent_share": 0.529,
-    "papers_per_month": 5.2,
-    "score": 149.8
+    "growth_pct": 100.0,
+    "recent_share": 0.533,
+    "papers_per_month": 5.3,
+    "score": 153.3
    }
   },
   {
@@ -129,23 +129,23 @@
   {
    "id": "spam-phishing",
    "name": "Spam & Phishing",
-   "count": 1180,
+   "count": 1182,
    "trajectory": {
     "2023": 84,
     "2024": 333,
     "2025": 426,
-    "2026": 337
+    "2026": 339
    },
    "momentum": {
     "id": "spam-phishing",
     "name": "Spam Phishing",
-    "total": 1180,
-    "recent": 467,
+    "total": 1182,
+    "recent": 469,
     "prior": 423,
-    "growth_pct": 10.4,
-    "recent_share": 0.396,
-    "papers_per_month": 38.9,
-    "score": 50.0
+    "growth_pct": 10.9,
+    "recent_share": 0.397,
+    "papers_per_month": 39.1,
+    "score": 50.6
    }
   }
  ],
@@ -198,7 +198,7 @@
   {
    "id": "phishing-detection",
    "name": "Phishing Detection",
-   "count": 496
+   "count": 499
   },
   {
    "id": "reputation",
@@ -8249,6 +8249,21 @@
   ],
   [
    "2026-09",
+   "delivery-security",
+   "phishing-detection"
+  ],
+  [
+   "2026-09",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-09",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-09",
    "spam-phishing",
    "phishing-detection"
   ],
@@ -8266,7 +8281,7 @@
  "venues": [
   {
    "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 148
+   "papers": 149
   },
   {
    "name": "Lecture notes in networks and systems",
@@ -8328,24 +8343,24 @@
  "keyword_bursts": [
   {
    "keyword": "phishing",
-   "recent": 352,
-   "total": 805,
+   "recent": 355,
+   "total": 808,
    "burst_score": 0.96,
-   "recent_share": 0.4829
+   "recent_share": 0.485
   },
   {
    "keyword": "spam",
    "recent": 240,
    "total": 602,
    "burst_score": 0.88,
-   "recent_share": 0.3292
+   "recent_share": 0.3279
   },
   {
    "keyword": "email security",
    "recent": 38,
    "total": 120,
    "burst_score": 0.7,
-   "recent_share": 0.0521
+   "recent_share": 0.0519
   },
   {
    "keyword": "email classifier",
