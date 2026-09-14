@@ -47367,3 +47367,559 @@ papers:
     when vulnerability peaks, and whether that timing can be anticipated — tied to observable indicators of fatigue and cognitive
     load across a shift.'
   venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'defaults.exposed Domain Security Census: Aggregate Dataset'
+  date: 2026-09
+  url: https://doi.org/10.5281/zenodo.22690389
+  category: delivery-security
+  subcategory: dmarc-dkim
+  authors:
+  - defaults.exposed
+  abstract: 'defaults.exposed runs a monthly census of domain security posture across the global registered domain population,
+    measuring DNS security, email authentication (SPF, DKIM, DMARC), TLS and certificate configuration, and web security headers.
+    The census scores each domain against a public methodology and assigns a letter grade from A+ to F. This record contains
+    the aggregate outputs of one census edition: per-TLD grade distributions, per-check pass rates across the full 34-check
+    methodology, certificate authority market share, DMARC policy adoption and enforcement, mail and nameserver provider concentration,
+    TLS protocol version adoption, and overall population counts (graded, unreachable, indeterminate, dead). This dataset
+    excludes per-domain records and publishes only population-level aggregates, in line with the terms of the underlying zone-file
+    data sources. See the included README.md for the full file list and schema notes. Full methodology: https://defaults.exposed/methodology
+    Live data explorer: https://defaults.exposed/data Census overview: https://defaults.exposed/census New editions are added
+    to this record as new versions on a monthly cadence.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'The synergy of influence: a unified framework for phishing email detection using persuasion principle interactions'
+  date: 2026-08
+  url: https://doi.org/10.1093/comjnl/bxag095
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Hongbing Qian
+  - Meiyun Zuo
+  abstract: Abstract Phishing emails, which exploit human psychology rather than technical vulnerabilities, remain a significant
+    cybersecurity threat. While numerous studies have attempted to apply Cialdini’s principles of influence—reciprocity, commitment,
+    social proof, authority, liking, and scarcity—to phishing detection, the synergistic effect of combining these principles
+    within detection models remains unexplored. This paper proposes a data-driven method for phishing email detection based
+    on combinatorial features of these influence principles. We introduce a methodology to score each of the six principles
+    within an email and subsequently compute combination features to analyze their correlation with phishing. The most correlated
+    combinatorial feature is then integrated into the detection model. Extensive experiments on multiple datasets demonstrate
+    that our approach achieves modest but generally positive improvements over the Text_Only baseline. Compared with this
+    baseline, gradient boosting models benefit the most (average gains of 2.7–3.1 percentage points), while already high-performing
+    models like support vector machine and logistic regression show smaller gains (0.2–0.3 percentage points). Certain models
+    (random forest and CatBoost) show occasional performance degradation compared with using only individual principle scores
+    (Basic configuration).
+  venue: The Computer Journal
+- title: Interpretable Detection of Large Language Model-Generated Phishing Emails via Linguistic and Stylometric Cues
+  date: 2026-09
+  url: https://doi.org/10.1109/lcn67947.2026.11660775
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Daniel Commey
+  - Kamel Abbad
+  - Sena G. Hounsinou
+  abstract: ''
+  venue: ''
+- title: 'Wisdom of the Crowd: Ensembling Large Language Models for Email Phishing Detection via Meta-Learners'
+  date: 2026-09
+  url: https://doi.org/10.25447/sit.33540352.v2
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Kei Min Fong
+  - Sean Wei Heng Lam
+  - Jeryl Loi
+  abstract: Phishing attacks are one of common social engineering attacks used by attackers to target users. Phishing is often
+    what attackers use to gain a foothold of any organisations that attackers may be targeting. Currently there are a lack
+    of effective methods to detect and block phishing emails. Many of the methods to defend against phishing emails involve
+    relying on the users to detect the phishing email. These methods may be difficult if users lack the knowledge to do so.
+    Hence, we propose a solution to help detect phishing emails using machine learning. Based on the results and analysis
+    performed, the best category of machine learning models to use for meta-learners are ensemble models, with Extreme Gradient
+    Boost with the highest F1 score.
+  venue: Singapore Institute of Technology
+- title: 'Nebulon Enterprise Simulated Threats for Phishing Research (NEST-Phish): A Synthetic Enterprise Phishing Email Dataset
+    for Behavioral and Machine-Learning Research'
+  date: 2026-09
+  url: https://arxiv.org/abs/2609.04474
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Emily Winokur
+  - Lauren S. Treiman
+  - Allen G. Moore
+  abstract: Phishing remains one of the most persistent cyber threats, yet publicly shareable datasets for studying phishing
+    in realistic enterprise email settings remain limited. To address this gap, we introduce a synthetic enterprise phishing
+    email dataset built around a fictitious organization, Nebulon. The dataset spans a broad set of workplace communication
+    themes and includes matched synthetic legitimate and phishing emails with interpretable phishing-cue annotations. Here,
+    ``legitimate'' denotes the non-phishing class, not legitimately occurring organizational emails. Human-subject categorizations
+    and classifier evaluations show that the dataset supports meaningful variation in phishing judgments while also providing
+    learnable signal for supervised detection. This publicly released resource is intended to support future work on phishing
+    detection, human susceptibility, explainability, and benchmark development in enterprise-like contexts.
+  venue: arXiv (Cornell University)
+- title: A Dual-Layer deep learning approach with PSO-Based feature selection for filtering spam and phishing emails
+  date: 2026-09
+  url: https://doi.org/10.1007/s00500-025-10840-4
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - Santosh Kumar Birthriya
+  - Priyanka Ahlawat
+  - Ankit Kumar Jain
+  abstract: ''
+  venue: Soft Computing
+- title: PREDICTION PHISHING ATTACK OVER WEBSITE USING ML AND OPTIMIZATION APPROACH
+  date: 2026-09
+  url: https://doi.org/10.52152/d11575
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - ARAVIND RAJEENDRA
+  - Sridevi Annathurai
+  abstract: Abstract- Phishing effects have turned to be a most pre-dominant attacks encountered by Internet users especially
+    for users in IoT environment. Many investigators attempt to provide solution which leads to a major prediction disaster.
+    This work proposes a novel Machine Learning (ML) approach to handle Phishing effect on Email over the targeted sectors.
+    Thus, effectual phishing detection is required to needed to trace the phishing effect over the email with a periodic alarm
+    rate. This work proposes a novel regression-based linear support vector model (r-lSV) to mitigate the phishing effect
+    problem and provides awareness by analyzing the phishing features to predict and prevent the phishing scams in its earlier
+    stage. The proposed prediction model partitions the dataset into testing and training to analyze the inherent phishing
+    characteristics over email. The proposed model partitions the phishing and non-phishing using online available dataset.
+    The functionality of the anticipated model is compared with other machine learning approaches. The functionality of the
+    proposed model is optimized using Bald Eagle Eye Optimizer (BEO) to attain global outcomes. The proposed model intends
+    to give superior outcomes based the feature learning significance and classification. The proposed r-lSV establishes better
+    trade-off compared to other approaches. Keywords- phishing effect, prediction, machine learning, feature representation,
+    scams
+  venue: DYNA
+- title: 'Lightweight and Explainable Real-Time Detection of Social Media-Borne Phishing URLS: A Critical Review for Indian
+    Context'
+  date: 2026-09
+  url: https://doi.org/10.17148/ijarcce.2026.15910
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Pushpam Kumari
+  abstract: Cybercrime in India has undergone a fundamental transformation in the last five years.Phishing, which was once
+    limited to fraudulent emails, has now shifted aggressively to social media platforms such as WhatsApp, Telegram, Instagram
+    and Facebook.Cybercriminals exploit trust by circulating deceptive links that promise free mobile recharge, government
+    jobs, scholarship schemes, KYC updates and lottery prizes.Academic researchers have responded with a large number of machine
+    learning based detection systems that report very high accuracy, often exceeding 98 percent.However, these systems are
+    developed in isolation from real-world deployment constraints.Critical practical metrics such as inference latency, model
+    file size, throughput and explainability for non-technical users are completely ignored.Most models depend on external
+    services such as WHOIS lookup, DNS query and PageRank fetching, which require network calls and introduce significant
+    delay.This paper presents a comprehensive critical theoretical review of six prominent recent studies published between
+    2025 and 2026.
+  venue: IJARCCE
+- title: 'STAD-MLTRS: A SMART THREAT-AWARE DETECTION MODEL WITH MULTI-LAYER TRUST AND ROUTING SECURITY FOR IOT-ENABLED SMART
+    CITIES'
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.22733420
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Dr. R. DEEPTHA GUNDALA VENKATA RAMA LAKSHMI
+  abstract: 'The Rapid expansion of IoT infrastructure as the foundation of smart cities has intensified cybersecurity risks,
+    with modern attack vectors including phishing-triggered payloads, injection exploits, and multi-stage DDoS campaigns.
+    To counter these threats, this study proposes STAD-MLTRS (Smart Threat-Aware Detection with Multi-Layer Trust and Routing
+    Security), an integrated framework that enhances security through layered anomaly detection, dynamic trust profiling,
+    and adaptive routing optimization. The framework introduces three key components: a Contextual Email Threat Filter (CETF)
+    for detecting malicious email payloads, Temporal Trust Profiling (TTP) for evaluating node reliability over time, and
+    a Dual-Layer Secure Route Optimizer (DLSRO) that combines trust scoring with LSTM-based anomaly detection to secure communication
+    paths. Experiments conducted on hybrid datasets (IoT-23, CIC-Email 2019, and real-time urban telemetry) demonstrate the
+    framework’s effectiveness, achieving 98.2% detection accuracy, reducing false positives to 1.7%, lowering SLA violations,
+    and improving routing trust and energy efficiency compared to baseline IDS and ML-based approaches. These results confirm
+    that STAD-MLTRS provides a scalable, resilient, and energy-conscious security solution for safeguarding IoT-enabled smart
+    cities against evolving and complex cyberattacks.'
+  venue: Journal of Theoretical and Applied Information Technology
+- title: Assessment of Cybersecurity Challenges and Their Implications for National Security in Nigeria
+  date: 2026-08
+  url: https://doi.org/10.61166/interkoneksi.v4i1.92
+  category: spam-phishing
+  subcategory: phishing-detection
+  authors:
+  - Nura Umar Manya Manya
+  - Isah Maina
+  abstract: The rapid expansion of Nigeria's digital ecosystem has transformed cybersecurity from a technological concern
+    into a critical component of national security. As government institutions, financial systems, telecommunications, education,
+    healthcare, and other critical infrastructure increasingly rely on digital technologies, the country has become more vulnerable
+    to cyber threats. This study assessed the cybersecurity challenges facing Nigeria and examined their implications for
+    national security. A qualitative descriptive research design based on documentary analysis was adopted. Data were obtained
+    from secondary sources, including peer-reviewed journal articles, books, government publications, policy documents, and
+    reports from national and international organizations. The collected data were analyzed using qualitative content analysis.
+    The findings revealed that Nigeria continues to face diverse cybersecurity threats, including phishing, ransomware, business
+    email compromise, identity theft, cyber fraud, cyber-enabled terrorism, misinformation, and attacks on critical national
+    infrastructure. These threats undermine economic stability, weaken institutional resilience, threaten public safety, and
+    compromise national sovereignty. The study further found that weak cybersecurity governance, inadequate funding, limited
+    institutional capacity, shortage of skilled cybersecurity professionals, poor public cyber awareness, and insufficient
+    inter-agency collaboration remain major barriers to effective cybersecurity management. The study also established that
+    emerging technologies, particularly Artificial Intelligence (AI), offer significant opportunities for strengthening cybersecurity
+    through automated threat detection, predictive analytics, anomaly detection, biometric authentication, malware identification,
+    and real-time incident response. However, the misuse of AI by cybercriminals for sophisticated phishing attacks, deepfakes,
+    automated malware, and intelligent cyberattacks presents new security challenges that require effective regulation and
+    ethical governance. The analysis was anchored on Systems Theory, National Security Theory, and Deterrence Theory, which
+    collectively explain the interconnected nature of cyberspace, the responsibility of government to protect national digital
+    assets, and the importance of strong legal and institutional measures in preventing cybercrime. The study concludes that
+    cybersecurity has become indispensable to Nigeria's national security and sustainable development. It recommends increased
+    investment in AI-enabled cybersecurity technologies, effective implementation of the National Cybersecurity Policy and
+    Strategy and the Cybercrimes (Prohibition, Prevention, etc.) Act, 2015, continuous capacity building for cybersecurity
+    professionals, enhanced public awareness, stronger inter-agency coordination, and greater international cooperation. Implementing
+    these measures will improve Nigeria's cyber resilience, protect critical national infrastructure, strengthen national
+    security, and support sustainable socio-economic development in the digital age.
+  venue: Interkoneksi Journal of Computer Science and Digital Business
+- title: Comparative Evaluation of Machine Learning Classifiers for SMS Spam Detection with Optimized Feature Extraction
+  date: 2026-09
+  url: https://doi.org/10.63363/aijfr.2026.v07i05.6200
+  category: spam-phishing
+  subcategory: spam-filtering
+  authors:
+  - Olumide Ogunnusi
+  abstract: 'The proliferation of mobile communication has led to a significant rise in unsolicited SMS spam messages, posing
+    threats to user privacy, security, and overall mobile experience. Existing rule-based spam filters are increasingly inadequate
+    against evolving spammer tactics, necessitating more adaptive and accurate detection approaches. This study investigates
+    the application of machine learning techniques to text-based SMS spam detection using the UCI SMS Spam Collection Dataset,
+    which comprises 5,572 messages with a pronounced class imbalance of 86.6% ham to 13.4% spam. Three classifiers were evaluated:
+    Multinomial Naive Bayes, Support Vector Machines, and Random Forest, combined with TF-IDF feature extraction and bigram
+    analysis. Hyperparameter optimization was performed via grid search, and model robustness was assessed through 5-fold
+    cross-validation. The Multinomial Naive Bayes classifier with optimized TF-IDF parameters achieved 99% accuracy on the
+    held-out test set, with a spam-class precision of 99.28%, recall of 92.61%, and an F1-score of 95.83%. Cross-validation
+    yielded a mean F1-score of 0.9556, confirming consistent generalization. Feature importance analysis identified promotional
+    terms such as "claim," "prize," and "have won" as the strongest spam indicators, while informal conversational terms were
+    strongly predictive of legitimate messages. These findings demonstrate that lightweight probabilistic classifiers, when
+    paired with effective feature engineering, can achieve near-perfect spam detection performance and offer a practical,
+    interpretable foundation for real-world SMS filtering systems.'
+  venue: Advanced International Journal for Research
+- title: '"Simplify Secure Mailbox Migration Between Exchange Server & Microsoft 365"'
+  date: 2026-09
+  url: https://doi.org/10.21227/d7mx-3121
+  category: mailbox-migration
+  subcategory: exchange
+  authors:
+  - Stellar info
+  abstract: '"Stellar Migrator for Exchange is a secure and reliable Exchange migration tool designed to simplify mailbox
+    migration between Exchange Server and Microsoft 365 without complex PowerShell scripting. It supports large mailbox migrations
+    and helps IT administrators transfer mailbox data securely while minimizing downtime and maintaining data integrity.The
+    tool supports multiple migration scenarios, including Exchange Server to Microsoft 365, Microsoft 365 tenant-to-tenant,
+    Microsoft 365 to Exchange Server, and Exchange Server to Exchange Server migration. It automates mailbox mapping and provides
+    features such as incremental migration, priority-based migration, detailed migration reports, and support for archive,
+    shared, and public folders.Built with security in mind, Stellar Migrator for Exchange helps organizations securely migrate
+    large mailboxes and business-critical email data with greater control and visibility throughout the migration process.
+    It supports Exchange Server 2010\u20132019, Exchange Server Subscription Edition (SE), and Microsoft 365."'
+  venue: IEEE DataPort
+- title: '"Stellar Migrator for Outlook: A Software Tool Dataset for PST and OST to Microsoft 365 Mailbox Migration"'
+  date: 2026-09
+  url: https://doi.org/10.21227/m7hj-wa32
+  category: mailbox-migration
+  subcategory: exchange
+  authors:
+  - Bharat Bhushan
+  abstract: '"This dataset provides structured technical documentation for Stellar Migrator for Outlook (version 2.0), a software
+    tool developed by Stellar Information Technology for migrating Outlook PST and OST data files to Microsoft 365 (Office
+    365) mailboxes and Exchange Server. The PST to Office 365 migration tool supports batch mailbox migration using CSV input,
+    selective migration by folder type and date range, delta migration to prevent data duplication, and preservation of the
+    original mailbox folder hierarchy. Compatible data formats include password-protected and encrypted PST and OST files.
+    The documentation covers system requirements, supported migration scenarios, operational workflow, and functional specifications,
+    and is intended for use by IT administrators, migration specialists, researchers, and technical evaluators conducting
+    comparative analysis of enterprise Outlook data migration solutions.The dataset includes compatibility parameters specifying
+    supported Windows operating system versions (Windows 11, 10, 8.1, and Windows Server 2022\/2019\/2016\/2012), minimum
+    hardware requirements, and software dependencies. Functional specifications document supported mailbox item types including
+    emails, contacts, calendars, tasks, journals, and notes, with associated metadata describing item-level preservation behavior.
+    Migration scenario descriptions cover PST-to-Microsoft 365, OST-to-Microsoft 365, PST-to-Exchange Server, and batch migration
+    workflows. System requirements and operational workflow documentation are provided to enable reproducible assessment of
+    migration performance under standardized conditions."'
+  venue: IEEE DataPort
+- title: '"Aryson Tenant to Tenant Migration Tool"'
+  date: 2026-09
+  url: https://doi.org/10.21227/z67m-t638
+  category: mailbox-migration
+  subcategory: exchange
+  authors:
+  - Sonika Rawat
+  abstract: '"Aryson Tenant to Tenant Migration is a comprehensive solution designed to simplify the migration of Microsoft
+    365 data from one tenant to another. It helps organizations transfer Exchange Online mailboxes, OneDrive, and SharePoint
+    data during mergers, acquisitions, tenant consolidation, company restructuring, or domain changes. The tool supports bulk
+    migration while maintaining folder hierarchy, email metadata, permissions, and sharing settings wherever supported.The
+    solution provides features such as CSV-based user mapping, selective migration filters, incremental migration, batch processing,
+    scheduling, and detailed migration reports. With modern Microsoft authentication and a structured migration workflow,
+    Aryson Tenant to Tenant Migration helps IT administrators manage complex cross-tenant projects efficiently while reducing
+    manual effort and migration-related challenges."'
+  venue: IEEE DataPort
+- title: 'Improving service efficiency without sacrificing quality: a multi-agent AI system for hospitality email response
+    automation'
+  date: 2026-09
+  url: https://doi.org/10.1108/jhti-12-2025-1458
+  category: ai-email
+  subcategory: classification
+  authors:
+  - Nitin Kumar
+  - Vipin Kataria
+  abstract: 'Purpose This study examines how multi-agent artificial intelligence (AI) architectures can automate hospitality
+    email responses while maintaining service quality standards. The research addresses the growing challenge of email volume
+    management in hotel operations where response time expectations increasingly conflict with operational capacity constraints.
+    Design/methodology/approach A three-month pilot study evaluated a multi-agent system across 200 properties within a large
+    global hospitality enterprise operating thousands of properties across multiple segments. The architecture employed three
+    specialized agents using Claude 3.5 Sonnet via AWS Bedrock: a triage agent for classification and security, a knowledge
+    retrieval agent with hybrid search capabilities and a drafting agent with validation mechanisms. Human evaluation of 2,500
+    emails (10% sample) assessed accuracy, tone, clarity, policy compliance and response effectiveness against human-only
+    baselines. Findings The multi-agent system reduced average response time by 77% (from 18 hours to 4.2 hours) while improving
+    customer satisfaction scores from 73.5% to 78.9%. First contact resolution increased from 68% to 83.6%, and factuality
+    accuracy achieved 96.4% in human evaluation. The architecture''s agent-specific validation layers prevented information
+    hallucination while maintaining 100% personally identifiable information protection compliance. Research limitations/implications
+    Hotel operators can implement multi-agent architectures to address email volume while maintaining quality by wrapping
+    large language models with specialized validation logic rather than deploying multiple AI models. Properties should establish
+    confidence thresholds (0.70 for human review, 0.85 for automation) and prioritize agent-specific policy enforcement over
+    model selection. The approach proves particularly effective for select-service and extended-stay brands facing high inquiry
+    volumes with limited staffing. Originality/value While task decomposition, validation layering and retrieval grounding
+    are established principles in AI systems research, their integrated application to asynchronous, compliance-sensitive
+    hospitality email automation at enterprise scale represents the primary contribution of this study. Drawing on a deployment
+    across 200 properties and 25,000 emails, this research provides empirical evidence that architectural design, specifically
+    agent-specific validation mechanisms and coordinated workflows, drives reliability in production service environments
+    without requiring multiple foundation models, offering a replicable framework for maintaining service quality at scale.'
+  venue: Journal of Hospitality and Tourism Insights
+- title: 'Diagnostic Prediction Models for Oral Frailty in Older Adults: A Systematic Review and Critical Appraisal'
+  date: 2026-09
+  url: https://doaj.org/article/83bbcb30a92d4500afb9b4d780d2ab1c
+  category: ai-email
+  subcategory: survey
+  authors:
+  - Fan Y
+  - Zhang S
+  - Wang YT
+  abstract: 'Yuzhu Fan, Shuang Zhang, Yinuo Wang, Zhirun Cheng, Xueer Yu, Yuanyuan Chen, Hui Shi, Wangqin ShenSchool of Nursing
+    and Rehabilitation, Nantong University, Nantong, Jiangsu, People’s Republic of China*These authors contributed equally
+    to this workCorrespondence: Hui Shi, School of Nursing and Rehabilitation, Nantong University, Nantong, Jiangsu, People’s
+    Republic of China, Tel +86-18705138362, Email shihui1@shchest.org Wangqin Shen, School of Nursing and Rehabilitation,
+    Nantong University, Nantong, Jiangsu, People’s Republic of China, Tel +86-13773668986, Email 29572378@qq.comBackground:
+    Oral frailty is a clinically relevant marker of vulnerability in older adults, but the quality, performance, and applicability
+    of multivariable models for its identification remain uncertain.Objectives: To identify and critically appraise multivariable
+    prediction models for oral frailty and summarize their predictors, performance, validation, and risk of bias.Methods:
+    Nine English and Chinese language databases were searched from inception to 14 July 2026, supplemented by citation and
+    website searches. Two reviewers independently selected studies, extracted data, and assessed risk of bias and applicability
+    using the Prediction Model Risk of Bias Assessment Tool (PROBAST). Owing to substantial heterogeneity, findings were synthesized
+    narratively.Results: Twenty-three reports representing 22 independent studies and 22 models were included. Twenty-one
+    studies were conducted in China, 21 used cross-sectional data, and 21 defined oral frailty as an Oral Frailty Index-8
+    score ≥ 4. All models were diagnostic and identified prevalent oral frailty at assessment; none predicted incident oral
+    frailty. Logistic regression and nomograms were the most common approaches, although two studies compared multiple machine-learning
+    algorithms. Common predictors included age, nutritional vulnerability, physical frailty or sarcopenia, chronic disease
+    burden, smoking, and oral-function indicators. Reported area under the receiver operating characteristic curve (AUC) values
+    ranged from 0.713 to 0.985. Internal validation was reported for 20 models, while six models underwent external validation
+    (four temporal and two geographical); one model reported apparent performance only. Calibration was incompletely assessed,
+    and no model had an overall low risk of bias.Conclusions: Existing models show generally moderate-to-high discrimination,
+    but the evidence remains methodologically immature. Predominantly cross-sectional designs, high risk of bias, predictor-outcome
+    overlap, incomplete calibration, and limited external validation, especially across geographical settings, preclude routine
+    clinical use. Current models should be regarded as candidate diagnostic screening aids that complement standardized assessment;
+    rigorous external validation and prospective prognostic modelling are priorities.PROSPERO Registration: CRD420251229868.Keywords:
+    oral frailty, prediction models, systematic review, PROBAST, older adults'
+  venue: 'DOAJ (DOAJ: Directory of Open Access Journals)'
+- title: Prompt Injection and the Security of LLM Applications and Agents
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22720682
+  category: ai-email
+  subcategory: exchange
+  authors:
+  - Rasmi M
+  abstract: 'Large language models are increasingly wired to external tools, retrieval systems, and untrusted third-party
+    content, which turns a conversational component into a control point for whole applications. This shift creates a security
+    problem with no close analogue in classical software: the model reads instructions and data through the same natural-language
+    channel and cannot reliably tell one from the other. Prompt injection exploits exactly this gap. In direct injection a
+    user overrides the developer intent, while in indirect injection an attacker plants instructions inside a web page, document,
+    or email that the model later retrieves and obeys on the user behalf. This survey organizes the field for practitioners
+    and researchers. It reviews the background of instruction-following models, retrieval-augmented generation, and tool-using
+    agents, then presents a taxonomy of threats spanning direct injection and jailbreaks, indirect injection, data exfiltration,
+    tool misuse, insecure output handling, training-data poisoning, and denial of service. It maps these threats onto the
+    OWASP Top 10 for LLM Applications and summarizes concrete attack mechanisms and case studies. It then surveys defenses,
+    from input and output filtering and spotlighting to dual-LLM privilege separation, instruction hierarchy, structured queries,
+    agent sandboxing, and human oversight, alongside evaluation benchmarks and red-teaming methods. Representative reported
+    numbers are labelled as such. The survey concludes that prompt injection remains fundamentally open because no clean separation
+    of instructions and data exists, and it argues for defense in depth, by-design capability control, and governance.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Theoretical Engineering
+  date: 2026-09
+  url: https://doi.org/10.5281/zenodo.22669677
+  category: ai-email
+  subcategory: imap
+  authors:
+  - Zili Chen
+  abstract: 'This paper introduces Theoretical Engineering, a framework that systematically applies engineering management
+    (version control, exception handling) and design (interface layering, decoupling) to theoretical construction and thinking
+    management, with the ultimate goal of achieving recursive automation of theoretical inquiry. As an initial exploration,
+    this work focuses on defining high-level architecture and core interface protocols. The fundamental operational unit is
+    the "abstract interface." A central diagnosis identifies the common pathology underlying numerous philosophical and scientific
+    deadlocks: protocol mismatch—applying static, bounded protocols to dynamic, recursively generative processes. The prescribed
+    remedy emphasizes interface reconstruction and graceful degradation/caching rather than outright deletion. Driving these
+    operations is the Dimension-Free Updatism (DFU) engine, which elevates Bayesian updating from parameter adjustment to
+    structural transitions in rule space ("wall-breaking"), unifying decoupling across data, strategy, and architecture layers.
+    A complete theory, within this view, comprises orthogonal and independently consumable intuitive and formalized coding
+    layers. The framework delivers systematic resolutions across multiple domains: Cognition: Distinguishes static from dynamic
+    reasoning to dissolve Hume''s induction problem, mapping the historical evolution of cognition (intuition → dogma → positivism
+    → Popper → Bayesian → DFU). Consciousness: Redefines consciousness as a recursive "perceive-comprehend-react" operation,
+    with experience defined as its persistable output data, systematically addressing zombies, the Chinese Room, and the explanatory
+    gap. Ethics: Formalizes value as Bayesian posterior probability, meaning as prior, and existence/survival as the normalization
+    constant, with morality defined as group-imposed behavioral constraints based on high-value actions, bridging the is-ought
+    gap and extending to AI alignment and multi-agent system sustainability. Paradoxes: Proposes a unified "straight-line
+    (infinite recursion) vs. line-segment (bounded)" model to reduce Russell''s, Liar, Curry, Zeno''s, Gettier, and other
+    self-referential or semantic paradoxes to a single structural violation. At the meta-level, the paper introduces "Recursive
+    Nested Philosophy" to replace ambiguous "meta-" terminology, emphasizing the input-output relay between inner and outer
+    layers. This paper does not claim a complete implementation but offers a scalable top-level interface signature for future
+    computational and engineering development. All assertions herein are declared relative truths, explicitly subject to revision
+    upon future empirical or formal evidence. 本文提出理论工程学(Theoretical Engineering),旨在将工程管理(版本控制、异常处理)与工程设计(接口分层、解耦)方法系统引入理论构建与思维管理,目标指向理论研究的递归自动化。这是对该框架的初步探索,侧重于顶层架构设计与核心接口协议的定义。
+    核心路径:以“抽象接口”为基本操作单元,诊断哲学与科学理论中大量困境的共性病因——协议错配(用静态实体的判定协议处理动态递归的生成过程)。处理策略为“接口重构”与“降级/缓存”,而非删除异常。底层以维度自由更新论(DFU)驱动,将贝叶斯更新从参数层升维至规则空间的结构跃迁层,统一数据、决策与结构的解耦。
+    主要消解与重构成果: 认知层:将推理区分为“静态推理”与“动态推理”,消解休谟归纳问题,并构建认知操作谱系(直觉→教条→实证→波普尔→贝叶斯→DFU)。 意识层:将意识重构为“感知-理解-反应”的循环递归操作,体验界定为其输出的可持久化数据,系统回应了哲学僵尸、中文房间、解释鸿沟等核心意识难题。
+    伦理层:将价值映射为贝叶斯后验概率,意义映射为先验,存续映射为归一化常数,道德界定为群体基于高价值量的行为约束规范,打通休谟实然-应然鸿沟,并延伸至AI安全与多智能体存续。 悖论统一层:以“直线(无限递归)与线段(有限边界)”单一模型,统一归约罗素悖论、说谎者悖论、柯里悖论、芝诺悖论、盖梯尔问题等所有自指及语义困境。
+    元层定位:提出“递归嵌套哲学”替代“元哲学”术语,强调内外层输入输出的承接关系。本文不声称全貌实现,而是提供可扩展的顶层接口签名;所有断言声明为相对真理,主动接受后续证据检验。 Feel free to discuss with me
+    by following email 欢迎通过以下邮箱与我讨论: zl.chen.research@outlook.com'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'zmactep/patinae: Release v0.5.0'
+  date: 2026-09
+  url: https://doi.org/10.5281/zenodo.22664972
+  category: mail-servers
+  subcategory: server-impl
+  authors:
+  - P. Yakovlev
+  - Mark Zurbruegg
+  - Yoshitaka Moriwaki
+  abstract: 'Patinae v0.5.0 Zawinski''s law says that programs keep expanding until they can read email. Patinae started as
+    a molecular viewer. It now has background tasks, Markdown output, and an AI plugin that can connect to MCP servers. We
+    appear to be one mail server away from compliance. The largest change in 0.5.0 is underneath all of that: the task system
+    has been completely rebuilt around one shared lifecycle. Loading a structure, running a script, and asking a plugin to
+    do background work now use the same rules for completion, progress, errors, and cancellation. Those rules extend across
+    the desktop application, native plugins, IPC, Python, and the web viewer. That gives plugins the foundation for longer
+    workflows. A plugin can issue a command, receive its actual result, wait for any background work it starts, and decide
+    what to do next. The new AI plugin puts that into practice: ask for a scene in ordinary language, let the agent operate
+    Patinae, and have it inspect the rendered image before answering. Highlights A task has one lifecycle, wherever it starts
+    Background work now receives a host-assigned task ID and stays under the shared task runner''s control. Progress, diagnostics,
+    final outcomes, and cancellation requests belong to that task. The desktop shows active tasks with progress and cancellation
+    controls, and services background work independently of rendering. The distinction between accepting a command and finishing
+    its work is explicit. An immediate command returns its result. A command that starts background work also returns task
+    IDs, which clients can observe, wait for, or cancel. Success means the required scene changes have been applied; it does
+    not promise that the GPU has already presented a frame. Scripts and plugin workflows can create child tasks. A parent
+    stays active until its children finish, and cancellation propagates through the task tree. Cancelling stops further work
+    cooperatively; changes already applied to the scene remain. A wait timeout ends the wait without cancelling the underlying
+    task. Python command methods wait for background work by default, so a script can fetch a structure and then operate on
+    it. Use wait=False to get task IDs immediately and manage them through tasks or a notebook viewer''s view.tasks. Browser
+    integrations receive command results and use viewer.tasks.get, list, wait, and cancel to follow the same lifecycle. Plugins
+    can coordinate work and recover from errors Plugins now receive typed replies to the host commands they issue, correlated
+    to the original request and delivered only to the requesting plugin. Replies include success or failure, output messages,
+    and every accepted task ID. A command can fail after starting some work, so those IDs remain available for inspection.
+    For plugin authors, the new contract separates responsibilities clearly: The host owns task identity and state. A plugin
+    submits a task request and starts its worker after the host accepts it and delivers the assigned ID. Workers report progress,
+    output, and completion. Scene mutations go through the host and must be acknowledged before the plugin reports success.
+    Nested commands belong to the parent task. Their completion and cancellation participate in the same lifecycle. Recovery
+    can be deliberate. Child failure fails the parent by default. An executor can opt into deciding the parent outcome after
+    inspecting and handling a failed child. The original failure remains in task history. This matters for an agent that needs
+    to correct a command, or a script that has a fallback when a download fails. The parent can handle the error and continue
+    while preserving the record of what happened. Silent execution also follows the task tree. It suppresses REPL presentation
+    while retaining results, diagnostics, and logs, so a plugin can handle intermediate failures without filling the output
+    panel with messages it intends to recover from. Polling plugins additionally receive named selections and Recent Atoms
+    paths, including instance qualifiers, alongside object names. They can connect a user''s current picks to their own commands
+    without serializing the full scene. Plugin migration: rebuild the application and all native plugins from matching 0.5.0
+    sources. This release uses plugin ABI 7 and runtime wire version 21. Background workers should use the host task contract,
+    and command callers must inspect returned task IDs before treating a reply as completed work. The plugin authoring guide
+    documents the producer, observation, and cancellation APIs. Markdown reaches the output panel Commands and plugins can
+    now mark individual output messages as Markdown. Desktop and web REPLs render headings, emphasis, lists, and code, making
+    longer answers and small reports easier to read. Desktop tables use a compact monospace layout; unsupported constructs
+    fall back to readable text. Web output is sanitized, and Markdown images are not loaded. Plain text remains the default.
+    Existing commands keep printing literal text, including punctuation that happens to look like Markdown. Plugins opt in
+    with print_markdown or a formatted output message. The source text and its format survive command replies and plugin polling,
+    including silent execution. The AI plugin uses Markdown for its final answer, so explanations and command examples arrive
+    as formatted output in the same panel used for ordinary commands. An AI plugin that can operate and inspect the scene
+    The new native ai plugin adds natural-language control through a configurable Responses API endpoint. It can run Patinae
+    commands, wait for the tasks they start, inspect the scene as an image, and use the results to choose its next step. ai
+    show the loaded structure as a cartoon and color chain A blue ai what color is the structure now? look at the scene ai
+    status ai cancel Command and tool errors are returned to the model so it can attempt a correction within the configured
+    step limit. Scene capture uses the actual renderer and viewport, including when requested from inside a task. Configure
+    the endpoint, model, and authentication in ai/config.toml under the plugin directory. The model must support function
+    calling and image input. API keys can come from an environment variable or directly from configuration; local endpoints
+    can run without authentication. Configuration is reloaded for each request. Each ai request starts a fresh conversation.
+    Command activity is logged, and the REPL displays the final answer or error; this release does not stream answer text
+    or retain conversation history between requests. ai cancel stops further work without undoing scene changes already made.
+    The plugin sends prompts, scene context, command results, requested scene images, and MCP results to the configured model
+    endpoint. Its commands can modify the scene and write files. The AI plugin guide covers installation, configuration, and
+    limits. MCP tools join the same agent workflow The AI plugin can connect to configured Model Context Protocol (MCP) servers
+    and discover their tools for each request. Both local servers over stdio and remote servers over Streamable HTTP are supported.
+    Local server entries specify a command, optional arguments, environment variables, and working directory. Remote entries
+    specify a URL and optional authentication headers, including headers read from environment variables. The discovered tools
+    become available alongside Patinae commands and scene inspection during the agent''s run. Connections close when the request
+    ends, and local server processes are stopped. The current integration exposes MCP tools; resources, prompts, legacy HTTP+SSE,
+    and interactive OAuth login are not supported. External MCP servers are installed and configured separately. New features
+    Unified background tasks: shared identity, progress, outcomes, cancellation, and parent/child tracking across desktop,
+    plugins, IPC, Python, and web. Plugin command results: correlated replies with typed output and accepted task IDs, plus
+    explicit child-error recovery and inherited silent execution. Richer plugin context: named selections and exact Recent
+    Atoms paths are available during polling. Markdown output: optional formatting in desktop and web REPLs, preserved through
+    command and plugin transport. AI scene agent: natural-language commands, task-aware execution, scene image inspection,
+    and formatted final answers. MCP connections: local stdio and remote Streamable HTTP tools configured per server. Bug
+    fixes and improvements Renderer context survives task execution. Commands issued by tasks retain the native renderer and
+    real viewport size, fixing raster PNG capture from task-owned commands and scripts. Read-only plugin commands avoid session
+    writeback. Inspecting state no longer causes an unnecessary restore of the serialized session. Selections and scene navigation
+    do less repeated work. Copy-aware evaluation is shared across selection paths, wildcard projection respects displayed
+    copy membership, and bounds calculations reuse or accumulate intermediate results for orient, center, and zoom. Coloring
+    and structure loading allocate less temporary data. Full-object coloring uses a contiguous path; residue expansion borrows
+    residue keys; CIF assemblies are collected during parsing; single-model files avoid redundant topology signatures. Plugin
+    and web documentation is expanded. Reference plugins now have setup and usage guides, and the web README covers embedding,
+    task completion, panels, and deployment requirements. Downloads Bundles Packages with the application, packaged plugins,
+    and runtime pieces. | Platform | Architecture | Download | | --- | --- | --- | | macOS | Apple Silicon | Patinae.dmg |
+    | Windows | x86_64 | Windows bundle | | Windows | ARM64 | Windows ARM64 bundle | Standalone executables | Platform | Architecture
+    | Executable | Plugins | | --- | --- | --- | --- | | macOS | Apple Silicon | Executable | Plugins | | Windo'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'From Paper Manifests to Real-Time GPS: The Fascinating Evolution of Package Tracking Technology'
+  date: 2026-09
+  url: https://doi.org/10.5281/zenodo.22549195
+  category: mail-servers
+  subcategory: imap
+  authors:
+  - TrackPkgs Logistics Research
+  abstract: 'Not that long ago, buying something from a mail-order catalog or an early online storefront was an exercise in
+    pure patience. You submitted your order, crossed your fingers, and waited out the standard disclaimer: “Please allow four
+    to six weeks for delivery.” During those weeks, your item existed in a logistical black hole. You had no way to check
+    its location, no estimated delivery date, and no recourse other than calling a customer service helpline if the parcel
+    simply never arrived. Today, the landscape looks radically different. The moment an order confirmation hits your inbox,
+    you expect instant, end-to-end visibility. We pull out our phones, check high-precision delivery maps, and receive ping
+    notifications the exact second a box lands on our front porch. The transition from blind faith to minute-by-minute visibility
+    is one of the most remarkable logistical and technological achievements of the digital age. Here is a look at how package
+    tracking technology evolved from humble paper logs to the sophisticated, AI-driven global networks we rely on today. The
+    Pre-Digital Era: Paper Waybills and Blind Transit Before microchips and digital networks, freight and postal services
+    operated entirely on paper. Packages traveled alongside physical documents called waybills or cargo manifests. Dispatchers
+    and dockworkers manually recorded item numbers, origins, and destinations on paper ledger sheets. If a merchant or customer
+    wanted to locate a shipment, logistics clerks had to trace the paper trail by calling intermediate distribution hubs along
+    the transit route via telephone or teletype. If a waybill went missing or got damaged by weather, the cargo effectively
+    vanished into the system until someone physically discovered it at a sorting terminal. True shipment tracking in transit
+    simply did not exist for everyday consumers. The Barcode Revolution (1970s–1980s) The first major leap toward modern tracking
+    occurred in the late 1970s and early 1980s, spearheaded by the adoption of linear barcodes and computerized data networks.
+    Industry pioneers realized that hand-recording serial numbers created bottlenecks and human error. During this era, logistics
+    firms introduced optical barcode scanners and centralized tracking mainframes. When a parcel was sorted at an air hub
+    or regional depot, a worker scanned its barcode using a handheld device or stationary conveyor scanner. This scan recorded
+    a timestamp and a facility code, which was uploaded in batches to a central database. For the first time, logistics managers
+    could review the history of where an item had been scanned. While this data was primarily used internally by operations
+    teams to manage route capacity, it laid the foundational architecture for automated parcel tracking. The Web 1.0 Era:
+    Bringing Tracking to the Consumer In the mid-1990s, the rise of the commercial World Wide Web changed consumer expectations
+    forever. Instead of calling a 1-800 number to speak with a dispatcher, shippers began exploring ways to make scan data
+    publicly accessible. In late 1994, FedEx launched the first website feature that allowed customers to enter a tracking
+    code into an online form and see scan events on their own screens. UPS, DHL, and national postal operators quickly followed
+    suit. Suddenly, entering a sequence of digits to track your package became a routine part of buying goods remotely. These
+    early systems relied on batch-uploaded updates. Scanners synced with central servers every few hours via wired docks or
+    dial-up modems. While not instantaneous, it gave buyers peace of mind and significantly reduced inbound support calls
+    for retailers. Cellular Telematics, GPS, and Dynamic Scanning (2000s–2010s) As cellular networks transitioned from 2G
+    to 3G and 4G, and GPS chips became small and affordable, logistics visibility shifted from stationary scans to dynamic,
+    moving data streams. Mobile Computer Scanners Delivery drivers were equipped with ruggedized cellular terminals. Instead
+    of saving scan data for the end-of-day dock return, these devices transmitted scan events in real time over cellular networks.
+    The moment a courier scanned a parcel at your doorstep, the server updated. Fleet Telematics and Active GPS Freight companies
+    began outfitting delivery vans, semi-trucks, and shipping containers with GPS telematics units. Dispatchers could see
+    the precise geographical coordinates, speed, and heading of every vehicle in their fleet. This granular data enabled modern
+    delivery tracking features, such as live route maps and narrow time-window estimates (“Your driver is 5 stops away”).
+    The Cross-Border Boom and Universal Aggregators As global e-commerce expanded over the last decade, supply chains grew
+    increasingly complex. A single online purchase might now be picked up by a local courier in Asia, flown internationally
+    by a freight forwarder, cleared through customs, handed over to a national postal system, and ultimately delivered by
+    a regional gig-economy driver. This multi-leg routing created a serious visibility problem: each carrier operated within
+    its own proprietary software silo, forcing customers to juggle multiple tracking numbers across different languages and
+    foreign websites. Relying on a single carrier tracking page often resulted in dead ends once a box crossed an international
+    border. To solve this fragmentation, modern universal platforms emerged. Multi-carrier services like TrackPkgs aggregate
+    tracking updates across more than 1,500 postal and courier networks worldwide. By automatically identifying the courier
+    and stitching together tracking events from every leg of transit into a single feed, these tools ensure buyers and merchants
+    maintain clear visibility regardless of how many handoffs occur along the journey. The Modern Frontier: IoT, AI, and Predictive
+    Visibility Tracking technology is now entering an era powered by the Internet of Things (IoT) and machine learning. We
+    are moving beyond tracking where an item is to understanding its condition and predicting its future: Environmental Sensor
+    Tags: High-value shipments, such as pharmaceuticals and sensitive electronics, now travel with miniature IoT sensors that
+    broadcast temperature, humidity, shock, tilt, and light exposure in real time. Predictive ETA Algorithms: Artificial intelligence
+    models analyze historical traffic trends, weather forecasts, port congestion, and seasonal package volumes to predict
+    delays before they happen and dynamically reroute shipments. Computer Vision and Proof of Delivery: Modern drivers use
+    high-resolution cameras to capture geotagged, timestamped delivery photos, providing immediate visual verification that
+    eliminates porch-piracy ambiguity. Looking Ahead From paper waybills passed hand-to-hand across train depots to satellite-linked
+    telemetry and automated universal tracking systems, our ability to monitor physical goods across the globe has transformed
+    completely. Today, transparency is not an added bonus—it is an essential pillar of global trade. As automated fulfillment
+    centers, autonomous delivery vehicles, and smart sensor networks continue to mature, the future of shipment visibility
+    promises to be faster, more precise, and more seamless than ever before.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)

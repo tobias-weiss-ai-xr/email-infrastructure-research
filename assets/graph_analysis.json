@@ -3,85 +3,85 @@
   {
    "id": "ai-email",
    "name": "AI-Assisted Email",
-   "count": 251,
+   "count": 255,
    "trajectory": {
     "2023": 10,
     "2024": 37,
     "2025": 57,
-    "2026": 147
+    "2026": 151
    },
    "momentum": {
     "id": "ai-email",
     "name": "Ai Email",
-    "total": 251,
-    "recent": 171,
+    "total": 255,
+    "recent": 175,
     "prior": 47,
-    "growth_pct": 263.8,
-    "recent_share": 0.681,
-    "papers_per_month": 14.2,
-    "score": 331.9
+    "growth_pct": 272.3,
+    "recent_share": 0.686,
+    "papers_per_month": 14.6,
+    "score": 340.9
    }
   },
   {
    "id": "delivery-security",
    "name": "Delivery Security",
-   "count": 120,
+   "count": 121,
    "trajectory": {
     "2023": 6,
     "2024": 23,
     "2025": 41,
-    "2026": 50
+    "2026": 51
    },
    "momentum": {
     "id": "delivery-security",
     "name": "Delivery Security",
-    "total": 120,
-    "recent": 64,
+    "total": 121,
+    "recent": 65,
     "prior": 32,
-    "growth_pct": 100.0,
-    "recent_share": 0.533,
-    "papers_per_month": 5.3,
-    "score": 153.3
+    "growth_pct": 103.1,
+    "recent_share": 0.537,
+    "papers_per_month": 5.4,
+    "score": 156.8
    }
   },
   {
    "id": "mail-servers",
    "name": "Mail Servers & Storage",
-   "count": 29,
+   "count": 31,
    "trajectory": {
     "2023": 4,
     "2024": 9,
     "2025": 6,
-    "2026": 10
+    "2026": 12
    },
    "momentum": {
     "id": "mail-servers",
     "name": "Mail Servers",
-    "total": 29,
-    "recent": 12,
+    "total": 31,
+    "recent": 14,
     "prior": 6,
-    "growth_pct": 100.0,
-    "recent_share": 0.414,
-    "papers_per_month": 1.0,
-    "score": 141.4
+    "growth_pct": 133.3,
+    "recent_share": 0.452,
+    "papers_per_month": 1.2,
+    "score": 178.5
    }
   },
   {
    "id": "mailbox-migration",
    "name": "Mailbox Migration",
-   "count": 8,
+   "count": 11,
    "trajectory": {
-    "2026": 8
+    "2026": 11
    },
    "momentum": {
     "id": "mailbox-migration",
     "name": "Mailbox Migration",
-    "total": 8,
-    "recent": 8,
+    "total": 11,
+    "recent": 11,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 0.7,
+    "papers_per_month": 0.9,
     "score": 100.0
    }
   },
@@ -129,23 +129,23 @@
   {
    "id": "spam-phishing",
    "name": "Spam & Phishing",
-   "count": 1182,
+   "count": 1192,
    "trajectory": {
     "2023": 84,
     "2024": 333,
     "2025": 426,
-    "2026": 339
+    "2026": 349
    },
    "momentum": {
     "id": "spam-phishing",
     "name": "Spam Phishing",
-    "total": 1182,
-    "recent": 469,
+    "total": 1192,
+    "recent": 479,
     "prior": 423,
-    "growth_pct": 10.9,
-    "recent_share": 0.397,
-    "papers_per_month": 39.1,
-    "score": 50.6
+    "growth_pct": 13.2,
+    "recent_share": 0.402,
+    "papers_per_month": 39.9,
+    "score": 53.4
    }
   }
  ],
@@ -158,7 +158,7 @@
   {
    "id": "classification",
    "name": "Email Classification",
-   "count": 6
+   "count": 7
   },
   {
    "id": "data-protection",
@@ -168,7 +168,7 @@
   {
    "id": "dmarc-dkim",
    "name": "DMARC/DKIM/SPF",
-   "count": 113
+   "count": 114
   },
   {
    "id": "encryption",
@@ -178,7 +178,7 @@
   {
    "id": "exchange",
    "name": "Exchange & EAS",
-   "count": 170
+   "count": 174
   },
   {
    "id": "identity",
@@ -188,7 +188,7 @@
   {
    "id": "imap",
    "name": "IMAP & JMAP",
-   "count": 163
+   "count": 165
   },
   {
    "id": "migration-tools",
@@ -198,7 +198,7 @@
   {
    "id": "phishing-detection",
    "name": "Phishing Detection",
-   "count": 499
+   "count": 507
   },
   {
    "id": "reputation",
@@ -208,7 +208,7 @@
   {
    "id": "server-impl",
    "name": "Server Implementations",
-   "count": 14
+   "count": 15
   },
   {
    "id": "smtp",
@@ -218,7 +218,7 @@
   {
    "id": "spam-filtering",
    "name": "Spam Filtering",
-   "count": 526
+   "count": 528
   },
   {
    "id": "storage-format",
@@ -233,7 +233,7 @@
   {
    "id": "survey",
    "name": "Surveys",
-   "count": 29
+   "count": 30
   },
   {
    "id": "transport-security",
@@ -7770,7 +7770,7 @@
   [
    "2026-07",
    "spam-phishing",
-   "reputation"
+   "phishing-detection"
   ],
   [
    "2026-07",
@@ -7780,7 +7780,7 @@
   [
    "2026-07",
    "spam-phishing",
-   "spam-filtering"
+   "reputation"
   ],
   [
    "2026-07",
@@ -7856,6 +7856,16 @@
    "2026-07",
    "spam-phishing",
    "spam-filtering"
+  ],
+  [
+   "2026-07",
+   "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-08",
+   "ai-email",
+   "exchange"
   ],
   [
    "2026-08",
@@ -8160,6 +8170,16 @@
   [
    "2026-08",
    "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-08",
+   "spam-phishing",
    "reputation"
   ],
   [
@@ -8235,6 +8255,16 @@
   [
    "2026-09",
    "ai-email",
+   "classification"
+  ],
+  [
+   "2026-09",
+   "ai-email",
+   "imap"
+  ],
+  [
+   "2026-09",
+   "ai-email",
    "imap"
   ],
   [
@@ -8246,10 +8276,70 @@
    "2026-09",
    "ai-email",
    "imap"
+  ],
+  [
+   "2026-09",
+   "ai-email",
+   "survey"
   ],
   [
    "2026-09",
    "delivery-security",
+   "dmarc-dkim"
+  ],
+  [
+   "2026-09",
+   "delivery-security",
+   "phishing-detection"
+  ],
+  [
+   "2026-09",
+   "mail-servers",
+   "imap"
+  ],
+  [
+   "2026-09",
+   "mail-servers",
+   "server-impl"
+  ],
+  [
+   "2026-09",
+   "mailbox-migration",
+   "exchange"
+  ],
+  [
+   "2026-09",
+   "mailbox-migration",
+   "exchange"
+  ],
+  [
+   "2026-09",
+   "mailbox-migration",
+   "exchange"
+  ],
+  [
+   "2026-09",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-09",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-09",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-09",
+   "spam-phishing",
+   "phishing-detection"
+  ],
+  [
+   "2026-09",
+   "spam-phishing",
    "phishing-detection"
   ],
   [
@@ -8276,12 +8366,22 @@
    "2026-09",
    "spam-phishing",
    "spam-filtering"
+  ],
+  [
+   "2026-09",
+   "spam-phishing",
+   "spam-filtering"
+  ],
+  [
+   "2026-09",
+   "spam-phishing",
+   "spam-filtering"
   ]
  ],
  "venues": [
   {
    "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 149
+   "papers": 154
   },
   {
    "name": "Lecture notes in networks and systems",
@@ -8289,7 +8389,7 @@
   },
   {
    "name": "arXiv (Cornell University)",
-   "papers": 33
+   "papers": 34
   },
   {
    "name": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
@@ -8312,12 +8412,12 @@
    "papers": 13
   },
   {
-   "name": "Communications in computer and information science",
+   "name": "DOAJ (DOAJ: Directory of Open Access Journals)",
    "papers": 12
   },
   {
-   "name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-   "papers": 11
+   "name": "Communications in computer and information science",
+   "papers": 12
   },
   {
    "name": "Computers & Security",
@@ -8342,32 +8442,39 @@
  ],
  "keyword_bursts": [
   {
+   "keyword": "mailbox migration",
+   "recent": 2,
+   "total": 2,
+   "burst_score": 2.16,
+   "recent_share": 0.0027
+  },
+  {
    "keyword": "phishing",
-   "recent": 355,
-   "total": 808,
+   "recent": 364,
+   "total": 817,
    "burst_score": 0.96,
-   "recent_share": 0.485
+   "recent_share": 0.484
   },
   {
    "keyword": "spam",
-   "recent": 240,
-   "total": 602,
-   "burst_score": 0.88,
-   "recent_share": 0.3279
+   "recent": 242,
+   "total": 604,
+   "burst_score": 0.87,
+   "recent_share": 0.3218
   },
   {
    "keyword": "email security",
    "recent": 38,
    "total": 120,
-   "burst_score": 0.7,
-   "recent_share": 0.0519
+   "burst_score": 0.69,
+   "recent_share": 0.0505
   },
   {
    "keyword": "email classifier",
    "recent": 1,
    "total": 4,
-   "burst_score": 0.55,
-   "recent_share": 0.0014
+   "burst_score": 0.54,
+   "recent_share": 0.0013
   }
  ]
 }
